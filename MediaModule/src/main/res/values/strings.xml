@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lc_demo_device_more_video">No video today, please wait for more ></string>
+    <string name="lc_demo_device_cloud_video">Cloud</string>
+    <string name="lc_demo_device_local_video">Equipment</string>
+    <string name="lc_demo_device_record_loading_more">See more</string>
+    <string name="lc_demo_device_sure">Sure</string>
+    <string name="lc_demo_device_cancel">cancel</string>
+    <string name="lc_demo_device_encrypt_key_tip">The video is encrypted, please enter the password</string>
+    <string name="lc_demo_device_video_play_loading">Video security channel is being established. . .</string>
+    <string name="lc_demo_device_video_play_error">Playback failed</string>
+    <string name="lc_demo_device_cloud_state_suspended">Cloud video package suspended</string>
+    <string name="lc_demo_device_cloud_state_expired">Cloud video package has expired</string>
+    <string name="lc_demo_device_cloud_state_not_opened">Cloud video package is not opened</string>
+    <string name="lc_demo_device_record_d_time">Recording time cannot be less than 3 seconds</string>
+    <string name="lc_demo_device_record_stop">End screen recording</string>
+    <string name="lc_demo_device_talk_open_success">Intercom Begin</string>
+    <string name="lc_demo_device_talk_close_success">Intercom Close</string>
+    <string name="lc_demo_device_record_begin">Start recording</string>
+    <string name="lc_demo_device_video_play_change">Switching video security channel. . .</string>
+    <string name="lc_demo_device_capture_success">Screenshot successful</string>
+    <string name="lc_demo_device_capture_failed">Screenshot failed</string>
+    <string name="lc_demo_device_talk_open_failed">Intercom failed to open</string>
+    <string name="lc_demo_device_update">Upgrade</string>
+    <string name="lc_demo_device_record_edit">Edit</string>
+    <string name="lc_demo_device_record_edit_finish">Finish</string>
+    <string name="lc_demo_device_record_delete_success">successfully deleted</string>
+    <string name="lc_demo_device_delete_choose_all">Choose All</string>
+    <string name="lc_demo_device_delete_sure">Sure Delete？</string>
+    <string name="lc_demo_device_delete_exit">Sure Exit？</string>
+    <string name="lc_demo_device_delete_exit_tip">The video download is not completed, exit will cancel the download, whether to exit</string>
+    <string name="lc_demo_device_encrypt_device_password_tip">The video is encrypted, please enter the device password</string>
+    <string name="lc_demo_device_today_no_record">today no record</string>
+    <string name="device_manager_no_cloud_storage">Cloud storage service is not opened</string>
+</resources>

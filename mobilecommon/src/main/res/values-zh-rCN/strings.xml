@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="common_cancel">取消</string>
+    <string name="common_cancel_big">取消</string>
+    <string name="common_confirm">确定</string>
+    <string name="mobile_common_operate_fail">操作失败，请检查网络</string>
+
+    <string name="go_to_setting">去设置</string>
+
+    <string name="mobile_common_no_google_play_detection">跳转失败，请先安装谷歌应用市场</string>
+    <string name="mobile_common_no_huawei_play_detection">请先安装华为应用市场.</string>
+
+
+    <!--权限增加-->
+    <string name="mobile_common_permission_apply">权限申请</string>
+    <string name="mobile_common_common_ignore">忽略</string>
+    <string name="mobile_common_permission_explain_get_accounts">请开启联系人访问权限，以正常使用添加通讯录好友的功能</string>
+    <string name="mobile_common_permission_explain_write_accounts">请开启联系人写入权限，以保存“乐橙电话报警”为联系人</string>
+    <string name="mobile_common_permission_explain_read_phone_state">请开启电话访问权限，以拨打客服热线</string>
+    <string name="mobile_common_permission_explain_camera">请开启相机访问权限，以正常使用拍照，扫描二维码等功能</string>
+    <string name="mobile_common_permission_explain_external_storage">请开启存储权限，以正常使用抓图、录制、下载等功能</string>
+    <string name="mobile_common_permission_explain_record_audio">请开启麦克风访问权限，以正常使用对讲、自定义语音录制等功能</string>
+    <string name="mobile_common_lack_permission_then_exit">缺少必要的权限，请打开权限</string>
+    <string name="mobile_common_permission_explain_access_location_usage">请开启定位信息权限，以正常使用基于地理位置的服务及WiFi连接等功能。</string>
+    <string name="geofence_backgroud_location_permission_explain">要启用地理围栏，请转到手机上的“设置”>“我的”。然后将位置设置权限更改为“始终”。</string>
+
+    <string name="common_no_authority">无权限</string>
+
+
+    <string name="common_offline">离线</string>
+
+    <string name="mobile_common_common_never_remind">不再提示</string>
+
+
+    <string name="device_manager_report_month_select_month"><xliff:g id="num">%d</xliff:g>月</string>
+    <string name="device_manager_report_month_select_year"><xliff:g id="num">%d</xliff:g>年</string>
+    <string name="valid_code_retrieve_valid_num">重新获取(<xliff:g id="num">%d</xliff:g>)</string>
+    <string name="device_manager_regain">重新获取</string>
+    <string name="common_today">今天  </string>
+    <string name="common_yesterday">昨天  </string>
+    <string name="lc_demo_device_update">升级</string>
+
+    <string name="device_manager_input_captcha">请输入验证码</string>
+    <string name="user_pwd_login_login">账户登陆</string>
+    <string name="user_register">注册</string>
+    <string name="user_input_name">请输入手机号码或邮箱</string>
+    <string name="user_login_title">登录</string>
+    <string name="user_register_btn">账户注册</string>
+
+    <string name="common_i_know">知道了</string>
+    <string name="application_name">Imou</string>
+    <string name="device_manage_notice">注意</string>
+    <string name="device_delete_tip">提示</string>
+    <string name="device_delete_confirm_msg">确认删除？</string>
+    <string name="device_confirm_exit">确认退出</string>
+    <string name="quit_response_not_save_hint">设置尚未保存，是否退出？</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lc.playback">
+
+    <application >
+        <activity
+            android:name=".ui.DeviceRecordPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".ui.DeviceRecordPlayActivityNew"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".ui.DeviceRecordListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.PlayLocalActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

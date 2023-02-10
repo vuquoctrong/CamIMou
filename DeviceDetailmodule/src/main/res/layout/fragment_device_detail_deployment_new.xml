@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_50"
+        android:layout_marginTop="@dimen/px_50"
+        android:text="@string/lc_demo_device_deployment_title"
+        android:textColor="@color/lc_demo_color_2c2c2c"
+        android:textSize="@dimen/px_46" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_180"
+        android:layout_marginTop="@dimen/px_50"
+        android:background="@color/lc_demo_color_ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/px_50"
+        android:paddingRight="@dimen/px_50">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_30"
+                android:text="@string/lc_demo_device_move_check"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_32"/>
+            <ImageView
+                android:id="@+id/iv_move_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_25"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/switch_on"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/px_4"
+            android:textColor="@color/lc_demo_color_8f8f8f"
+            android:text="@string/lc_demo_device_deployment_tip"
+            android:textSize="@dimen/px_22"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_deployment_setting_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:layout_marginTop="@dimen/px_50"
+        android:paddingLeft="@dimen/px_50"
+        android:paddingRight="@dimen/px_35">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/lc_demo_device_deployment_setting_time"
+            android:textColor="@color/lc_demo_color_2c2c2c"
+            android:textSize="@dimen/px_32" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lc_demo_common_btn_next" />
+    </RelativeLayout>
+</LinearLayout>

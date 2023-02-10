@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:1-16:12
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:5:5-15:19
+	android:supportsRtl
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:7:9-35
+	android:allowBackup
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:6:9-36
+	tools:replace
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:8:9-64
+activity#com.example.usermodule.LoginActivity
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:9:7-11:13
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:10:11-47
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:9:17-46
+activity#com.example.usermodule.UserRegesiterActivity
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:12:9-14:15
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:12:19-56
+uses-sdk
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml

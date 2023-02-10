@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/c43">
+
+    <ImageView
+        android:id="@+id/tip_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/add_device_common_margin_15"
+        android:scaleType="fitCenter"
+        android:src="@drawable/adddevice_default" />
+
+    <TextView
+        android:id="@+id/tip_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tip_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/add_device_common_margin_15"
+        android:layout_marginRight="@dimen/add_device_common_margin_15"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/add_device_operation_by_instructions"
+        android:textColor="@color/c2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tip_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/add_device_common_margin_15"
+        android:layout_marginRight="@dimen/add_device_common_margin_15"
+        android:gravity="center"
+        android:textColor="@color/c5"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/help_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tip_txt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/c0"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/cb_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/add_device_common_margin_15"
+        android:layout_marginRight="@dimen/add_device_common_margin_15"
+        android:background="@color/c43"
+        android:button="@null"
+        android:checked="false"
+        android:drawableLeft="@drawable/checkbox_btn_message_selector"
+        android:drawablePadding="10dp"
+        android:maxLines="2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/add_device_complete_related_operations"
+        android:textColor="@color/c2"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_next"
+        style="@style/add_device_btn_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/common_next" />
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/adddevice_icon_wifipassword_nosupport5g_layer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/add_device_input_wifi_password"
+        android:textSize="17sp"
+        android:textColor="@color/c2"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_10"
+        >
+
+        <TextView
+            android:id="@+id/ssid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_wifi_ssid"
+            android:textColor="@color/c5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ssid"
+            android:layout_toRightOf="@+id/ssid_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:textColor="@color/c2"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:layout_marginRight="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/switch_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/adddevice_icon_switchwifi"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15">
+
+        <com.mm.android.mobilecommon.widget.ClearPasswordEditText
+            android:id="@+id/wifi_pwd"
+            style="@style/TextAppearance.17sp_lc_black_color"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_45"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/add_device_input_wifi_password"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="@color/c2"
+            android:textColorHint="@color/c6"
+            android:textCursorDrawable="@drawable/text_cursor_drawable"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wifi_pwd_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/checkbox_btn_wifi_selector"
+            android:drawablePadding="5dp"
+            android:maxLines="2"
+            android:text="@string/add_device_remember_password"
+            android:textColor="@color/c5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_5g_tip"
+            style="@style/add_device_help_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/add_device_device_not_support_5g"
+            android:textColor="@color/c5"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next"
+        style="@style/add_device_btn_style"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/common_next" />
+</LinearLayout>

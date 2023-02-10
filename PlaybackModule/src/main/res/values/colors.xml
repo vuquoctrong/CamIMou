@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lc_demo_color_ffffff">#ffffff</color>
+    <color name="lc_demo_color_f2f2f2">#f2f2f2</color>
+    <color name="lc_demo_color_880B8C0D">#880B8C0D</color>
+
+    <color name="lc_demo_color_4dffffff">#4dffffff</color>
+
+    <color name="lc_demo_color_f18d00">#f18d00</color>
+
+</resources>

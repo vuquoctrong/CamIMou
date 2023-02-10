@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.example.usermodule"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml
+11
+12    <application
+12-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:5:5-15:19
+13        android:allowBackup="false"
+13-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:6:9-36
+14        android:supportsRtl="true"
+14-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:7:9-35
+15        tools:replace="android:allowBackup,android:supportsRtl" >
+15-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:8:9-64
+16        <activity
+16-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:9:7-11:13
+17            android:name="com.example.usermodule.LoginActivity"
+17-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:9:17-46
+18            android:screenOrientation="portrait" />
+18-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:10:11-47
+19        <activity
+19-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:12:9-14:15
+20            android:name="com.example.usermodule.UserRegesiterActivity"
+20-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:12:19-56
+21            android:screenOrientation="portrait" />
+21-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\usermodule\src\main\AndroidManifest.xml:13:13-49
+22    </application>
+23
+24</manifest>

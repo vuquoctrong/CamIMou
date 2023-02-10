@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">third_zxing2</string>
+    <string name="scan_title">scan</string>
+
+    <!--扫码-->
+    <string name="zxing_scan_tips">Put the two-dimensional code/bar code into the box, you can automatically scan</string>
+    <string name="capture_no_camera">No access to the camera. Please open the access permission and try again</string>
+    <string name="capture_no_result">No results from the scan</string>
+    <string name="capture_no_network">The current network is unavailable. Check the network and try again</string>
+    <string name="capture_no_result2">No scan result, may not be a valid QR code/bar code</string>
+
+</resources>

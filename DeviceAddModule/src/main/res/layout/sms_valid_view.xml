@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/shape_corners_edittext_1dp_normal"
+    android:orientation="horizontal" >
+
+    <com.mm.android.deviceaddmodule.mobilecommon.widget.ClearEditText
+        android:id="@+id/et_sms_valid"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:background="@android:color/transparent"
+        android:hint="@string/device_manager_input_captcha"
+        android:textColorHint="@color/c6"
+        android:maxLength="16"
+        android:paddingLeft="5dp"
+        android:textColor="@color/c2"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c8" />
+
+    <TextView
+        android:id="@+id/tv_sms_valid_tip"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/device_manager_regain"
+        android:textColor="@drawable/selector_orange_textview"
+        android:textSize="15sp" />
+
+</LinearLayout>

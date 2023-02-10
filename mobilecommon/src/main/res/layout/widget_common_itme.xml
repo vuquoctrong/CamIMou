@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dev_detail_relativeLayout"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/top_line"
+        style="@style/common_horizontal_line_style"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        style="@style/mobile_common_cam_text_name.enabled"
+        android:layout_width="wrap_content"
+        android:maxEms="12" />
+
+    <TextView
+        android:id="@+id/sub_tv"
+        style="@style/mobile_common_cam_text_sub"
+        android:layout_marginRight="@dimen/mobile_common_dp_10"
+        android:drawableRight="@drawable/device_manager_icon_nextarrow" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/sub_tv"
+        android:layout_toRightOf="@id/title_tv">
+
+        <TextView
+            android:id="@+id/name_tv"
+            style="@style/mobile_common_cam_text_edit.enabled"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="5dp"
+            android:ellipsize="end" />
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/img_iv"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/loading_pb"
+                style="@style/mobile_common_imou.wight.progressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/switch_tv"
+                style="@style/mobile_common_cam_text_edit.enabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:drawableRight="@drawable/common_switch_btn_selector"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/bottom_line"
+        style="@style/common_horizontal_line_style"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

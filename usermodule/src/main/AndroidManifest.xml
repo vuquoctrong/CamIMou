@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.usermodule">
+    <application
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        tools:replace="android:allowBackup,android:supportsRtl">
+      <activity android:name=".LoginActivity"
+          android:screenOrientation="portrait"
+          />
+        <activity android:name=".UserRegesiterActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:countdownview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/c43">
+
+    <FrameLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/cloud_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/adddevice_netsetting_connectcloud_cloud2" />
+
+        <ImageView
+            android:id="@+id/cloud_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/adddevice_netsetting_connectcloud_cloud1" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/adddevice_netsetting_cloudserver" />
+
+        <ImageView
+            android:id="@+id/cloud_progrees_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/cloud_connecting" />
+
+    </FrameLayout>
+
+    <com.mm.android.mobilecommon.widget.CircleCountDownView
+        android:id="@+id/countdown_view"
+        android:layout_width="@dimen/add_device_common_coutdownview_height"
+        android:layout_height="@dimen/add_device_common_coutdownview_height"
+        android:layout_below="@+id/top_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        countdownview:countdownTime="60"
+        countdownview:progressTextColor="@color/c0"
+        countdownview:ringColor="@color/c0"
+        countdownview:ringWidth="3dp" />
+
+    <TextView
+        android:id="@+id/tv_image_show_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:text="@string/add_device_connect_cloud_please_wait"
+        android:textColor="@color/c2"
+        android:textSize="19sp" />
+
+</RelativeLayout>

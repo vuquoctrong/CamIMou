@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:listViewStyle">@style/List</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:textViewStyle">@style/TextView</item>
+        <item name="android:disabledAlpha">1</item>
+        <item name="android:listDivider">@drawable/transparent_divider</item>
+    </style>
+
+    <style name="List" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColorHint">@color/color9</item>
+        <item name="android:textColor">@color/color5</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

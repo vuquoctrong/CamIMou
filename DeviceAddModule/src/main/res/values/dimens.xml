@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <dimen name="add_device_common_margin_5">5dp</dimen>
+    <dimen name="add_device_common_margin_8">8dp</dimen>
+    <dimen name="add_device_common_margin_15">15dp</dimen>
+    <dimen name="add_device_common_margin_10">10dp</dimen>
+    <dimen name="add_device_common_margin_25">25dp</dimen>
+    <dimen name="add_device_common_margin_35">35dp</dimen>
+    <dimen name="add_device_common_margin_56">56dp</dimen>
+    <dimen name="add_device_common_edit_height">49dp</dimen>
+    <dimen name="add_device_common_tip_img_height">220dp</dimen>
+
+    <dimen name="add_device_common_coutdownview_height">80dp</dimen>
+
+    <dimen name="add_device_qrcode_tip_img_height">100dp</dimen>
+    <dimen name="add_device_qrcode_tip_img_width">213dp</dimen>
+
+
+    <dimen name="margin_normal">10dp</dimen>
+
+    <dimen name="btn_height">44dp</dimen>
+
+    <dimen name="px_2">1.0dp</dimen>
+    <dimen name="iotadd_px_90">45.0dp</dimen>
+    <dimen name="px_46">23.0dp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lc_demo_device_today_no_record">今日暂无录像</string>
+    <string name="lc_demo_device_delete_sure">确定删除？</string>
+    <string name="lc_demo_device_cloud_video">云录像</string>
+    <string name="lc_demo_device_local_video">本地录像</string>
+    <string name="lc_demo_device_delete_choose_all">全选</string>
+    <string name="lc_demo_device_record_edit">编辑</string>
+    <string name="lc_demo_device_encrypt_key_tip">视频已加密，请输入密码</string>
+    <string name="lc_demo_device_encrypt_device_password_tip">视频已加密，请输入设备密码</string>
+    <string name="lc_demo_device_video_play_loading">正在建立视频安全通道. . .</string>
+    <string name="lc_demo_device_video_play_change">正在切换视频安全通道. . .</string>
+    <string name="lc_demo_device_capture_success">截图成功</string>
+    <string name="lc_demo_device_capture_failed">截图失败</string>
+    <string name="lc_demo_device_record_d_time">录制时间不能小于3秒</string>
+    <string name="lc_demo_device_record_stop">结束录屏</string>
+    <string name="lc_demo_device_video_play_error">播放失败</string>
+
+    <string name="lc_demo_device_record_download">下载录像</string>
+    <string name="lc_demo_device_record_download_finish">下载完成</string>
+    <string name="lc_demo_device_record_download_error">下载失败，点击重试</string>
+    <string name="lc_demo_device_record_download_begin">正在下载</string>
+    <string name="lc_demo_device_record_delete_success">删除成功</string>
+    <string name="lc_demo_device_record_begin">开始录屏</string>
+    <string name="lc_demo_device_delete_exit">确定退出？</string>
+    <string name="lc_demo_device_delete_exit_tip">录像下载未完成，退出将取消下载，是否退出</string>
+    <string name="lc_demo_device_record_edit_finish">完成</string>
+</resources>

@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.2"
+    defaultConfig {
+        applicationId "com.imou.leopen"
+        minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.test.runner.AndroidJUnitRunner"
+        ndk{
+            abiFilters "armeabi","arm64-v8a"
+        }
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ AROUTER_MODULE_NAME : project.getName() ]
+            }
+        }
+    }
+    signingConfigs {
+        debug {
+            keyAlias 'key'
+            keyPassword 'lcmobile'
+            storeFile file('demo.keystore')
+            storePassword 'lcmobile'
+        }
+        release {
+            keyAlias 'key'
+            keyPassword 'lcmobile'
+            storeFile file('demo.keystore')
+            storePassword 'lcmobile'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.getByName('release')
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            if (variant.buildType.name.equals('release')) {
+                variant.getPackageApplication().outputDirectory = new File(project.rootDir.absolutePath + File.separator + "artifacts")
+                def fileName = "AndroidDemo_V${defaultConfig.versionName}.R.${releaseTime()}.apk"
+                outputFileName = fileName
+            }else {
+                def file = output.outputFile
+                variant.getPackageApplication().outputDirectory = new File(file.parent)
+                def fileName = "AndroidDemo_V${defaultConfig.versionName}.R.${releaseTime()}.apk"
+                outputFileName = fileName
+            }
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs project(':DeviceAddModule').file('libs')
+        dirs project(':mobilecommon').file('libs')
+    }
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMdd")
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    api project(':usermodule')
+    api project(':MediaModule')
+    api project(':PlaybackModule')
+    api project(':MessageModule')
+    api project(':DeviceDetailmodule')
+
+    implementation 'com.alibaba:arouter-api:1.5.2'
+    annotationProcessor 'com.alibaba:arouter-api:1.5.2'
+
+}

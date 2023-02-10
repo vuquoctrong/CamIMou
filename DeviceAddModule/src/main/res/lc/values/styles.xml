@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 通用标题-->
+    <style name="mobile_common_common_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/mobile_common_common_title_height</item>
+        <item name="android:background">@color/c43</item>
+    </style>
+
+    <style name="mobile_common_cam_text_edit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="mobile_common_cam_text_edit.enabled">
+        <item name="android:textColor">@color/mobile_common_text_edit_enable_selector</item>
+    </style>
+
+
+
+    <!-- Dialog 样式 背景透明  无标题 -->
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/px_550"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/lc_demo_soild_10r_white_shape"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_50"
+        android:text="@string/lc_demo_device_encrypt_key_tip"
+        android:textColor="@color/c2"
+        android:textSize="@dimen/px_28"></TextView>
+
+    <com.mm.android.mobilecommon.widget.ClearEditText
+        android:id="@+id/encrypt_key"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_66"
+        android:layout_margin="@dimen/px_40"
+        android:background="@drawable/lc_demo_border_gray_4r_shape"
+        android:gravity="center"
+        android:paddingLeft="@dimen/px_10"
+        android:paddingRight="@dimen/px_10"
+        android:singleLine="true"
+        android:textColor="@color/c2"
+        android:textColorHint="@color/c41"
+        android:textSize="@dimen/px_30" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/px_10"
+        android:layout_marginBottom="@dimen/px_10"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_50"
+            android:layout_marginRight="@dimen/px_50"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="@dimen/px_15"
+            android:paddingBottom="@dimen/px_15"
+            android:text="@string/common_cancel"
+            android:textColor="@color/c2"
+            android:textSize="@dimen/px_30"></TextView>
+
+
+        <TextView
+            android:id="@+id/tv_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_50"
+            android:layout_marginRight="@dimen/px_50"
+            android:layout_weight="1"
+            android:background="@drawable/lc_demo_soild_10r_org_shape"
+            android:gravity="center"
+            android:paddingTop="@dimen/px_15"
+            android:paddingBottom="@dimen/px_15"
+            android:text="@string/common_confirm"
+            android:textColor="@color/lc_demo_color_ffffff"
+            android:textSize="@dimen/px_30"></TextView>
+    </LinearLayout>
+</LinearLayout>

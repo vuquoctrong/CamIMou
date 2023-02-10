@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c43">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/add_device_input_device_password"
+                android:textColor="@color/c2"
+                android:textSize="17sp" />
+
+            <com.mm.android.mobilecommon.widget.ClearPasswordEditText
+                android:id="@+id/et_device_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/common_btn_bg_shape_gray"
+                android:ems="10"
+                android:hint="@string/add_device_input_device_password"
+                android:imeOptions="actionDone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="@color/c2"
+                android:textColorHint="@color/c6"
+                android:textCursorDrawable="@drawable/text_cursor_drawable"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/device_manager_password_error"
+                android:textColor="@color/c12"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/bottom_tip_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/add_device_kindly_reminder"
+                android:textColor="@color/c0"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bottom_tip_title"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="@dimen/add_device_common_margin_8"
+                android:textColor="@color/c5"
+                android:text="@string/add_device_password_initial_tip"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_input_ok"
+            style="@style/add_device_btn_style"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/common_next"
+            android:textColor="@color/c43"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

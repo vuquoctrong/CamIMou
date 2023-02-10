@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lc_demo_device_today_no_record">today no record</string>
+    <string name="lc_demo_device_delete_sure">Sure Delete？</string>
+    <string name="lc_demo_device_cloud_video">Cloud</string>
+    <string name="lc_demo_device_local_video">Equipment</string>
+    <string name="lc_demo_device_delete_choose_all">Choose All</string>
+    <string name="lc_demo_device_record_edit">Edit</string>
+    <string name="lc_demo_device_encrypt_key_tip">The video is encrypted, please enter the password</string>
+    <string name="lc_demo_device_encrypt_device_password_tip">The video is encrypted, please enter the device password</string>
+    <string name="lc_demo_device_video_play_loading">Video security channel is being established. . .</string>
+    <string name="lc_demo_device_video_play_change">Switching video security channel. . .</string>
+    <string name="lc_demo_device_capture_success">Screenshot successful</string>
+    <string name="lc_demo_device_capture_failed">Screenshot failed</string>
+    <string name="lc_demo_device_record_d_time">Recording time cannot be less than 3 seconds</string>
+    <string name="lc_demo_device_record_stop">End screen recording</string>
+    <string name="lc_demo_device_video_play_error">Playback failed</string>
+
+    <string name="lc_demo_device_record_download">Download the recording</string>
+    <string name="lc_demo_device_record_download_finish">Download completed</string>
+    <string name="lc_demo_device_record_download_error">Failed to download,try again</string>
+    <string name="lc_demo_device_record_download_begin">Downloading</string>
+    <string name="lc_demo_device_record_delete_success">successfully deleted</string>
+    <string name="lc_demo_device_record_begin">Start recording</string>
+
+    <string name="lc_demo_device_delete_exit">Sure Exit？</string>
+    <string name="lc_demo_device_delete_exit_tip">The video download is not completed, exit will cancel the download, whether to exit</string>
+    <string name="lc_demo_device_record_edit_finish">Finish</string>
+</resources>

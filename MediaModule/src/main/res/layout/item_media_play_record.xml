@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/px_10"
+    android:layout_width="@dimen/px_280"
+    android:layout_height="@dimen/px_150">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_img"
+        android:src="@mipmap/lc_demo_default_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/px_15"
+        android:layout_marginBottom="@dimen/px_10"
+        android:textColor="@color/lc_demo_color_ffffff"
+        android:textSize="@dimen/px_26"></TextView>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_loadingmore"
+        android:gravity="center"
+        android:text="@string/lc_demo_device_record_loading_more"
+        android:layout_centerInParent="true"
+        android:textColor="@color/lc_demo_color_8f8f8f"
+        android:textSize="@dimen/px_30"
+        android:background="@color/lc_demo_color_d9d9d9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TextView>
+</RelativeLayout>

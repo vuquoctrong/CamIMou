@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_store_status"
+            android:layout_width="@dimen/px_320"
+            android:layout_height="@dimen/px_320"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/px_30" />
+
+        <TextView
+            android:id="@+id/tv_store_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_50"
+            android:layout_marginRight="@dimen/px_50"
+            android:gravity="center"
+            android:textColor="@color/c2"
+            android:textSize="@dimen/sp_20" />
+
+        <TextView
+            android:id="@+id/tv_store_broken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_50"
+            android:layout_marginRight="@dimen/px_50"
+            android:gravity="center"
+            android:text="@string/sd_suggest_format"
+            android:textColor="@color/c2"
+            android:textSize="@dimen/sp_20"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/pb_store"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/px_540"
+            android:layout_height="@dimen/px_30"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/px_30"
+            android:max="100"
+            android:progressDrawable="@drawable/sd_progress_style"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_use_space"
+            android:layout_width="@dimen/px_540"
+            android:layout_height="@dimen/px_40"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/c5"
+            android:textSize="@dimen/sp_14"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_format"
+        android:textAllCaps="false"
+        android:layout_width="@dimen/px_600"
+        android:layout_height="@dimen/px_90"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/px_128"
+        android:background="@drawable/sd_btn_border_red"
+        android:gravity="center"
+        android:text="@string/sd_start_format"
+        android:textColor="@color/c12"
+        android:visibility="gone" />
+</RelativeLayout>

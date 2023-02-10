@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/px_30"
+    android:layout_marginRight="@dimen/px_30"
+    android:background="@drawable/lc_demo_soild_20r_white_shape"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/px_30"
+        android:paddingBottom="@dimen/px_20">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_5"
+            android:textColor="@color/lc_demo_color_2b2b2b"
+            android:textSize="@dimen/px_30" />
+
+        <ImageView
+            android:id="@+id/to_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_news" />
+
+        <ImageView
+            android:id="@+id/iv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/lc_demo_common_nav_settings_white_disable" />
+    </LinearLayout>
+
+    <com.mm.android.mobilecommon.widget.RadiusCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rcv_topLeftRadiu="0dp"
+        app:rcv_topRightRadiu="0dp"
+        app:rcv_bottomLeftRadiu="@dimen/px_20"
+        app:rcv_bottomRightRadiu="@dimen/px_20"
+        app:cardElevation="0dp">
+
+        <FrameLayout
+            android:id="@+id/fr_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/lc_demo_default_bg" />
+
+                <ImageView
+                    android:id="@+id/iv_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/lc_demo_home_btn_bigmode_play" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_offline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/lc_demo_soild_20r_c48000000_shape">
+
+                    <TextView
+                        android:id="@+id/tv_offline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="@string/lc_demo_main_offline"
+                        android:textColor="@color/lc_demo_color_ffffff"
+                        android:textSize="@dimen/px_32" />
+
+                    <TextView
+                        android:id="@+id/tv_offline_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_offline"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:textColor="@color/lc_demo_color_ffffff"
+                        android:textSize="@dimen/px_24" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_channel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_600"
+                android:layout_gravity="center"
+                android:visibility="gone"></androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+    </com.mm.android.mobilecommon.widget.RadiusCardView>
+
+</LinearLayout>

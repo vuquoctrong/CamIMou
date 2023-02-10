@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+
+
+    <color name="lc_color_4ea7f2">#4ea7f2</color>
+    <color name="color_0fff">#00ffffff</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+
+
+    <color name="iotadd_colorPrimary">#008577</color>
+    <color name="iotadd_colorPrimaryDark">#00574B</color>
+    <color name="iotadd_colorAccent">#D81B60</color>
+
+    <!--UI规范文档中的色值-->
+    <color name="iotadd_c0">#2C2C2C</color>
+    <color name="iotadd_c00">#00FFFFFF</color>
+    <color name="iotadd_c10">#F18D00</color>
+    <color name="iotadd_c20">#7FF18D00</color>
+    <color name="iotadd_c21">#B2F18D00</color>
+    <color name="iotadd_c22">#33F18D00</color>
+    <color name="iotadd_c30">#FF4F4F</color>
+    <color name="iotadd_c31">#0B8C0D</color>
+    <color name="iotadd_c32">#4F78FF</color>
+    <color name="iotadd_c33">#FFA904</color>
+    <color name="iotadd_c34">#FFCC00</color>
+    <color name="iotadd_c35">#D40041</color>
+    <color name="iotadd_c40">#2C2C2C</color>
+    <color name="iotadd_c41">#8F8F8F</color>
+    <color name="iotadd_c42">#C2C2C2</color>
+    <color name="iotadd_c42_44">#CCC2C2C2</color>
+    <color name="iotadd_c43">#FFFFFF</color>
+    <color name="iotadd_c54">#F6F6F6</color>
+    <color name="iotadd_ddd">#DDDDDD</color>
+    <color name="iotadd_e6">#e6e6e6</color>
+    <color name="iotadd_13c69a">#13c69a</color>
+</resources>

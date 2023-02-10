@@ -1,0 +1,9 @@
+include ':DeviceDetailmodule'
+include ':app', ':DeviceAddModule', ':third-zxing',':usermodule'
+rootProject.name='LCAndroidSDKDemo'
+
+
+include ':MediaModule'
+include ':MessageModule'
+include ':PlaybackModule'
+include ':mobilecommon'

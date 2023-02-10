@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <attr name="mainColor" format="color" />
+    <attr name="titleHeight" format="dimension" />
+
+    <!-- common title-->
+    <declare-styleable name="CommonTitle">
+        <attr name="titleText" format="reference" />
+        <attr name="left_selector" format="reference" />
+        <attr name="right_selector" format="reference" />
+
+        <attr name="right_selector_visible" format="boolean" />
+        <attr name="left_selector_visible" format="boolean" />
+        <attr name="title_background" format="reference" />
+    </declare-styleable>
+
+    <!-- EmptyView -->
+    <declare-styleable name="EmptyView">
+        <attr name="image_bg" format="reference" /> <!-- image background -->
+        <attr name="first_text_size" format="dimension" /> <!-- first text size -->
+        <attr name="first_text_color" format="color" /> <!-- first text color -->
+        <attr name="first_text" format="string" /> <!-- first text -->
+        <attr name="second_text_size" format="dimension" /> <!-- second text size -->
+        <attr name="second_text_color" format="color" /> <!-- second text color -->
+        <attr name="second_text" format="string" /> <!-- first text -->
+    </declare-styleable>
+
+
+    <declare-styleable name="MLImageView">
+
+        <attr name="ml_border_color" format="color" />
+        <attr name="ml_border_width" format="dimension" />
+        <attr name="ml_press_alpha" format="integer" />
+        <attr name="ml_press_color" format="color" />
+        <attr name="ml_radius" format="dimension" />
+        <attr name="ml_shape_type" format="enum">
+
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+   <!-- JazzyViewPager -->
+    <declare-styleable name="JazzyViewPager">
+        <attr name="JazzyViewPagerstyle">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="FadeEnabled" format="boolean" />
+        <attr name="outlineEnabled" format="boolean" />
+        <attr name="outlineColor" format="color|reference" />
+    </declare-styleable>
+
+
+</resources>

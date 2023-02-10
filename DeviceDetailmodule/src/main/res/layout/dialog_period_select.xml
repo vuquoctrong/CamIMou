@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/common_list_divider"
+    android:gravity="bottom"
+    android:minWidth="1000dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c43"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancal_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/common_cancel"
+            android:textColor="@color/c40"
+            android:textSize="@dimen/t2" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/common_confirm"
+            android:textColor="@color/c20"
+            android:textSize="@dimen/t2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <com.mm.android.mobilecommon.widget.antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/begin_hour_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            wheel:isAllVisible="false"
+            wheel:visibleItems="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/c41"
+            android:textSize="18sp" />
+
+        <com.mm.android.mobilecommon.widget.antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/begin_minute_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            wheel:isAllVisible="false"
+            wheel:visibleItems="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="-"
+            android:textColor="@color/c41"
+            android:textSize="18sp" />
+
+        <com.mm.android.mobilecommon.widget.antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/end_hour_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            wheel:isAllVisible="false"
+            wheel:visibleItems="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/c41"
+            android:textSize="18sp" />
+
+        <com.mm.android.mobilecommon.widget.antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/end_minute_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            wheel:isAllVisible="false"
+            wheel:visibleItems="5" />
+    </LinearLayout>
+
+
+</LinearLayout>

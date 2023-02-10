@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="lc_demo_loading" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/lc_demo_progress_style</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">@dimen/px_60</item>
+        <item name="android:maxWidth">@dimen/px_60</item>
+        <item name="android:minHeight">@dimen/px_60</item>
+        <item name="android:maxHeight">@dimen/px_60</item>
+    </style>
+
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <!--等待加载-->
+    <style name="imou.wight.progressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_style</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">30dip</item>
+        <item name="android:maxWidth">30dip</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">30dip</item>
+    </style>
+
+
+    <style name="mobile_common_custom_dialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <!--    lc目录中。需要看看要不要lc-->
+    <style name="mobile_common_dialog_anima" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mobile_common_dialog_appear</item>
+        <item name="android:windowExitAnimation">@anim/mobile_common_dialog_disappear</item>
+    </style>
+
+    <style name="mobile_common_imou.wight.progressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/mobile_common_progress_style</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">30dip</item>
+        <item name="android:maxWidth">30dip</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">30dip</item>
+    </style>
+
+    <style name="mobile_common_checks_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/mobile_common_transparent</item>
+        <item name="android:windowAnimationStyle">@style/mobile_common_dialog_anima</item>
+    </style>
+
+    <!--Dialog 布局使用match_parent属性时，使用此样式-->
+
+    <style name="mobile_common_TextAppearance.22sp_black_bold" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/c2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dev_detail_relativeLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/mobile_common_my_menu_selector_bg</item>
+    </style>
+
+    <!-- 竖列表格 横向分割线 style -->
+    <style name="common_horizontal_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/c8</item>
+    </style>
+
+    <style name="mobile_common_cam_text_name.enabled">
+        <item name="android:textColor">@color/mobile_common_text_name_enable_selector</item>
+    </style>
+
+    <style name="mobile_common_cam_text_edit.enabled">
+        <item name="android:textColor">@color/mobile_common_text_edit_enable_selector</item>
+    </style>
+
+    <style name="mobile_common_cam_text_edit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <!--设备管理item-->
+    <style name="mobile_common_cam_text_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">@dimen/mobile_common_sp_17</item>
+        <item name="android:textColor">@color/c2</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--等待加载-->
+    <style name="mobile_common_imou.wight.progressBar.Small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/mobile_common_progress_style</item>
+    </style>
+
+    <style name="mobile_common_cam_text_sub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c5</item>
+    </style>
+
+    <style name="iot_add_mobile_common_checks_dialog" parent="android:Theme.Material.Dialog">
+        <item name="android:windowBackground">@color/mobile_common_transparent</item>
+        <item name="android:windowAnimationStyle">@style/mobile_common_dialog_anima</item>
+    </style>
+
+
+    <style name="iotadd_device_btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_45</item>
+        <item name="android:background">@drawable/iotadd_common_next_btn_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/c43</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+</resources>

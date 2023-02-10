@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c43" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/adddevice_netsetting_connectwifi" />
+
+    <TextView
+        android:id="@+id/tv_image_show_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center"
+        android:text="@string/add_device_confirm_to_connect_correct_wifi"
+        android:textColor="@color/c2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_image_show_tip"
+        android:gravity="center"
+        android:text="@string/add_device_connect_and_goto_next"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/c5"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_goto_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/add_device_goto_connect_wifi"
+        android:textColor="@color/c0"
+        android:textSize="15sp" />
+</RelativeLayout>

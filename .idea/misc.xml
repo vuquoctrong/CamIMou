@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/activity_device_add.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/activity_device_hidden_wifi.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/activity_device_wifi_list.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/activity_device_wifi_password.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/box_add_tip.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_dev_login.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_dev_wifi_list.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_device_dispatch.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_hidden_wifi.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_scan.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_tip_soft_ap_connect_wifi.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_type_input.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/DeviceAddModule/src/main/res/layout/fragment_wifi_pwd.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/MediaModule/src/main/res/layout/activity_device_online_media_play.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/app/src/main/res/layout/activity_device_list.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/app/src/main/res/layout/activity_environment_guide.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/usermodule/src/main/res/layout/login_activity.xml" value="0.3546875" />
+        <entry key="..\:/Android_OpenSDK_Demo_3.12.01@182133.R.20230105/LCAndroidSDKDemo/usermodule/src/main/res/layout/user_regesiter_activity.xml" value="0.3546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

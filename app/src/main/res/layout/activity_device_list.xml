@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.DeviceListActivity">
+
+    <com.mm.android.mobilecommon.widget.CommonTitle
+        android:id="@+id/rl_title"
+        style="@style/mobile_common_common_title"
+        />
+
+    <com.mm.android.mobilecommon.widget.LcPullToRefreshRecyclerView
+        android:id="@+id/device_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title"
+        android:background="@color/c_f6f6f6"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/dp_10"
+        android:scrollbars="none"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@mipmap/lc_demo_loading_orange"
+        ptr:ptrDrawableIng="@drawable/lc_demo_org_progress_style"
+        ptr:ptrDrawableStart="@drawable/indicator_arrow"
+        ptr:ptrHeaderTextColor="@color/c51" />
+</RelativeLayout>

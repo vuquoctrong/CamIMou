@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" ns1:ignore="ExtraTranslation,MissingTranslation">
+    <string name="client_type">phone</string>
+    <string name="host">www.lechange.cn:443</string>
+
+
+    <string name="device_type_choose">select device type</string>
+    <string name="device_type_input_hint">please enter the device model</string>
+    <string name="device_type_other">other</string>
+    <string name="device_type_sure">sure</string>
+    <string name="device_type_choose_tip">How to check the device type</string>
+    <!--接口异常提示-->
+
+    <!--通用返回提示-->
+    <string name="mobile_common_bec_common_timeout">The network is not working well, please check the network！</string>
+
+    <string name="mobile_common_bec_add_device_valid_error">sc code error</string>
+
+
+    <string name="mobile_common_bec_device_locked">Sorry, too many attempts have been made for the device password. Your device has been locked. Please power off and restart the device</string>
+
+    <string name="mobile_common_bec_common_network_exception">The network is not strong</string>
+    <!--设备添加-->
+
+    <string name="add_box_tip_confirm_btn" translatable="false">Confirmed, start adding</string>
+    <string name="add_box_tip" translatable="false">Please make sure the box can work normally before adding：</string>
+    <string name="add_box_tip1" translatable="false">① Plug in the power source, the music box indicator light is white</string>
+    <string name="add_box_tip2" translatable="false">② Connect to available networks</string>
+    <string name="add_device_box_is_offline" translatable="false">Le Box is not online, please check if it is online</string>
+    <string name="assetfont_html" translatable="false">file:///android_asset/htmls/1.htm</string>
+    <string name="add_device_not_tip_again" translatable="false">Don\'t prompt next time </string>
+    <string name="add_device_input_sn_by_user_not_support_box" translatable="false">*Music box and accessories do not support manual input of serial number to add</string>
+
+    <string name="add_device_timeout_title_tip8">Use a thimble to press and hold the reset hole on the back of the device until the indicator on the front of the device goes out, then click "Restart"</string>
+    <string name="add_device_timeout_light_tip9">Green/blue light is on</string>
+    <string name="add_device_timeout_add_by_qrcode">Add QR code</string>
+    <string name="add_device_timeout_router_failed">Failed to connect to router</string>
+    <string name="add_device_timeout_network_failed">Failed to access the network</string>
+
+    <string name="add_device_qrcode_title_tip">Please face the QR code directly to the camera lens</string>
+    <string name="add_device_qrcode_msg_tip">Keep the distance at 10-30cm and move slowly back and forth.\nAfter hearing the voice prompt of "QR code scan succeeded", click Next</string>
+    <string name="add_device_enable_motion_detect">Turn on the equipment\'s motion check, capture, and video functions</string>
+    <string name="add_device_input_sec_code_tip">Please enter the 6-digit security code of the device</string>
+    <string name="add_device_input_sec_code_by_user">Please enter the security code</string>
+
+    <string name="add_device_commom_dev_more_than_ten_tip">Sorry, you have tried 10 times, please try again after a 30-minute rest</string>
+    <string name="add_device_commom_dev_more_than_ten_twice_tip">I\'m very sorry, you have tried 20 times, take a break and try again tomorrow</string>
+    <string name="add_device_commom_dev_ip_error_tip">Your device has been registered on the platform for more than 3 days, and the device and the client must be in the same LAN to bind. Please power off and restart the device</string>
+
+    <string name="add_device_commom_dev_sn_code_conflict_tip">Your device serial number conflicts</string>
+
+    <!--国内海外通用，需要翻译-->
+    <string name="add_device_input_sn">Please enter the device serial number</string>
+    <string name="add_device_title">Device Adding</string>
+    <string name="add_device_no_gateway">No associated gateway</string>
+    <string name="add_device_choose_related_gateway">Please select the gateway to be associated:</string>
+    <string name="add_device_plug_cable_to_device">Please plug the device into the network cable</string>
+    <string name="add_device_same_network_tip">Please connect your phone and device to the same network</string>
+    <string name="add_device_operation_by_instructions">Please follow the equipment manual</string>
+    <string name="add_device_plug_power">Please power on the device</string>
+    <string name="add_device_con_wifi">Please connect to a Wi-Fi Network</string>
+    <string name="add_device_wifi_ssid">WiFi network:</string>
+    <string name="add_device_input_wifi_password">Please enter WiFi password</string>
+    <string name="add_device_connect_and_goto_next">It will automatically next step after connection</string>
+    <string name="add_device_complete_related_operations">Related operations completed</string>
+    <string name="add_device_confirm_same_network">Confirmed to be connected to the same network</string>
+    <string name="add_device_add_by_wired">Wired add</string>
+    <string name="add_device_scan_lechange_device_qr_code">Please scan the QR code of Lechange device</string>
+    <string name="add_device_device_bind_by_yourself">The device is already under your account</string>
+    <string name="add_device_switch_to_wired_add">Switch to wired add</string>
+    <string name="add_device_switch_to_wireless_add">Switch to wireless add</string>
+    <string name="add_device_password_error_and_will_lock">The password is wrong, the device will be locked after 5 consecutive wrongs</string>
+    <string name="add_device_scan_device_qr_code">Please scan the QR code on the device</string>
+    <string name="add_device_add_bySn">Serial number adding</string>
+    <string name="add_device_input_sn_under_device">Please enter the serial number and security code on the device label</string>
+    <string name="add_device_confirm_to_connect_correct_wifi">Please make sure that the phone is connected to the WiFi that the device is connected</string>
+    <string name="add_device_remember_password">Remember password</string>
+    <string name="add_device_device_not_support_5g">The device does not support 5GWiFi</string>
+    <string name="add_device_adjust_phone_volume">Please turn up the volume of the phone \n and point the speaker of the phone at the device microphone</string>
+    <string name="add_device_keep_phone_close_to_device">Move the phone as close as possible to the device</string>
+    <string name="add_device_connect_router_please_wait">Connecting to the router, please wait...</string>
+    <string name="add_device_adjust_phone_volume_to_hear_bugu">Please turn up the volume of your mobile phone and aim the speaker of your mobile phone at the device microphone\nmake sure you hear "cuckoo, cuckoo"</string>
+    <string name="add_device_set_device_password_for_safety">To strengthen security protection, please set your device password</string>
+    <string name="add_device_kindly_reminder">Tips</string>
+    <string name="add_device_define_device_password_tip">Device password is Le Orange’s innovative security reinforcement strategy, designed to better protect your device
+     Information security. Only by using the correct device password can the audio and video information of the device be obtained. \n When you connect the camera to NVR and other equipment, you need to manually enter the password.
+     Please keep it safe: if you forget the password, you can restore the default configuration of the device and then add it to your account to set a new device password</string>
+    <string name="add_device_connect_cloud_please_wait">Connecting to the cloud platform, please wait...</string>
+    <string name="add_device_binding_to_account">Bind device to account, please wait...</string>
+    <string name="add_device_input_device_password">Please enter device password</string>
+    <string name="add_device_password_initial_tip">1.If you have set a device password on the Le Orange client or other clients, and have forgotten the password, you can restore the default configuration of the device and add the device again to set a new device password.
+         \n 2. If you have never set a device password, and your device label has the words "security code", please enter the 8-digit security code on the device label.</string>
+    <string name="add_device_add_successfully">Device added successfully!</string>
+    <string name="add_device_name_for_device">Please give the device a name!</string>
+    <string name="add_device_time">time</string>
+    <string name="add_device_bind_success_quit_tip">Failure to set the time zone may cause abnormalities in services such as cloud storage</string>
+    <string name="add_device_detecting_network_safety">Checking network security configuration, please wait...</string>
+    <string name="add_device_confrim_to_quit">exit？</string>
+    <string name="add_device_not_complete_tip">Setup has not completed. You will need to start over again if exiting. Are you sure you want to proceed?</string>
+    <string name="add_device_device_bind_by_other">Sorry, your device has been bound by %s, You can contact him/her to unbind the device</string>
+    <string name="add_device_not_support_to_bind">Sorry, it is not currently supported to add devices of this model</string>
+    <string name="add_device_tip_not_support_5g_title">Please connect your device to a 2.4 GHz Wi-Fi network.</string>
+    <string name="add_device_tip_not_support_5g_1">1. The device does not support 5 GHz Wi-Fi now. If you are using a dual-band router, please ensure that your phone and your device are connected to the same 2.4 GHz network.</string>
+    <string name="add_device_tip_not_support_5g_2">2. If you are not sure about the Wi-Fi frequency band that is connected to, please check it on the user manual or the web setup page of the router.</string>
+    <string name="add_device_i_need_help">help</string>
+    <string name="add_device_connect_timeout">Connection timed out</string>
+    <string name="add_device_operation_by_voice_or_light">Please follow the device indicator or voice prompts to select operation</string>
+    <string name="add_device_operation_by_voice_tip">Please follow the device indicator or voice prompt</string>
+    <string name="add_device_disconnect_power_and_restart">Please power off the device and reconnect the power and click "Restart"</string>
+    <string name="add_device_timeout_title_tip7">Please try again or choose another method to add the device</string>
+    <string name="add_device_yellow_light_twinkle">restart</string>
+    <string name="add_device_red_light_rotate">Red light spinning</string>
+    <string name="add_device_green_light_twinkle">Flashing green</string>
+    <string name="add_device_blue_light_always">Blue light is always on</string>
+    <string name="add_device_red_light_twinkle">Flashing red</string>
+    <string name="add_device_red_light_always">Red light is on</string>
+    <string name="add_device_green_light_always">Steady green light</string>
+    <string name="add_device_continue_to_wait">continue waiting</string>
+    <string name="add_device_quit_add_process">Exit to add</string>
+    <string name="add_device_restart">Restart</string>
+    <string name="add_device_choose_ap">Soft AP add</string>
+    <string name="add_device_choose_wlan">Wireless add</string>
+    <string name="add_device_choose_lan">Wired add</string>
+    <string name="add_device_config_failed">Configuration failed</string>
+    <string name="add_device_detect_safe_network_config_failed">Unable to detect network security configuration \n Please confirm that the phone and device are connected to the same network</string>
+    <string name="add_device_choose_wifi">Select WiFi network:</string>
+    <string name="add_device_connect_error_and_quit_retry">The connection is abnormal, please exit and try again</string>
+    <string name="add_device_softap_dev_connect_tip">Your bell device is connecting to Wi-Fi. If the connection is successful, the cyan light of the device indicator will stop flashing, and the cyan light will be steady on</string>
+    <string name="add_device_softap_dev_connect_check_tip">Cyan light is always on</string>
+    <string name="add_device_current_accessory_sn">Current accessory serial number(S/N)：</string>
+    <string name="add_device_pairing_please_wait">Pairing, please wait patiently...</string>
+    <string name="add_device_keep_ap_close_to_gateway">Place accessories as close as possible to the gateway device</string>
+    <string name="add_device_wifi_config_success">Configuration is successful</string>
+    <string name="add_device_ap_install_battery">Please install the battery on the accessory or connect the power adapter. If there is a plug, please unplug the plug.</string>
+    <string name="add_device_timeout_init_failed">Failed to detect network security configuration</string>
+    <string name="add_device_wait_to_connect_wifi">Please wait for the system to automatically connect</string>
+    <string name="add_device_wait_to_connect_wifi_failed">Please enter the WiFi settings of your phone, connect to the hotspot named "%s", and then return to this page</string>
+    <string name="add_device_verify_device_pwd_failed">Verification failed, please re-enter the device password</string>
+
+    <string name="add_device_listen_wifi_pwd_error_tip">The device prompts that the WIFI password is wrong？</string>
+    <string name="add_device_next_step_count_down">Next step(%ds)</string>
+
+    <string name="add_device_goto_connect_wifi">Click to select WiFi network</string>
+    <string name="add_device_congratulations">Congratulations</string>
+    <string name="add_device_get_free_cloud_package">Get free %1$s cloud storage%2$s monthly package</string>
+    <string name="add_device_get_permanent_free_cloud_package">Get %1$s sky cloud storage permanent free tier</string>
+    <string name="add_device_free_cloud_usage">Click the deactivate button and find "Trial Package" in the upper right corner to experience it for free</string>
+    <string name="add_device_days_remaining">%s cloud storage</string>
+    <string name="add_device_service_time">%S days remaining</string>
+    <string name="add_device_service_time_permanent_free">Days remaining permanent</string>
+    <string name="add_device_free_cloud_activated">go activate</string>
+    <string name="add_device_success_cloud_services_type">Package Type</string>
+    <string name="add_device_goto_open_location_service">Please turn on the mobile phone "location service" to allow "Le Orange" to obtain the current WiFi information</string>
+    <string name="device_add_scan_error">No QR code information detected</string>
+
+    <string name="add_device_input_sccode">Please enter the 8-digit device security code</string>
+    <string name="add_device_without_input_sccode_tip">*If there is no security verification code on the label, no need to enter it</string>
+    <string name="add_device_input_corrent_sc_tip">Please enter the correct security verification code</string>
+    <string name="add_device_add_volume_tip">Please turn up the phone volume</string>
+
+    <string name="add_device_adjust_phone_volume_to_hear_volume">Please turn up the volume of your phone and aim the speaker of your phone at the device microphone\nmake sure you hear sound</string>
+    <string name="add_device_will_hear_volume">About to hear sound waves</string>
+    <string name="add_device_will_hear_bugu">About to hear "bugu, bugu"</string>
+    <string name="add_device_falshlight_off">Tap to light up</string>
+    <string name="add_device_falshlight_on">Tap to close</string>
+
+    <string name="add_device_input_imei_under_device">Please enter the IMEI number on the label of the device body</string>
+    <string name="add_device_input_imei">Please enter the IMEI number of the device</string>
+    <string name="add_device_nb_tip1">Please press the self-test/silence button of the device first</string>
+    <string name="add_device_nb_tip2">If you delete the device and add it again, you need to power off and reconnect</string>
+    <string name="add_device_input_imei_by_user_tip">*IMEI number is 15-17 digits</string>
+    <string name="add_device_device_sn_or_imei_not_match">The input information is wrong, please check and re-enter</string>
+
+    <string name="add_device_add_ap_upper_limit">Added accessories reached the limit</string>
+    <string name="add_device_wait_to_connect_wifi_failed_sc">Please enter the WiFi settings of your phone, connect to the hotspot named "%s", and then return to this page</string>
+    <string name="add_device_about_wifi_pwd">About hotspot password</string>
+    <string name="add_device_tip_about_wifi_pwd">The hotspot password of the device is the device security code, find the words "SC code" on the device label, and enter the 8-digit SC code on the device label。</string>
+
+
+    <string name="device_disturb_state_failed">Setup failed</string>
+
+    <string name="device_manager_password_error">wrong password</string>
+
+    <string name="device_manager_summer_time">summer time</string>
+    <string name="device_manager_input_device_name">Please enter the device name</string>
+    <string name="device_manager_input_captcha">please enter verification code</string>
+    <string name="device_has_binding">The device is already in your account</string>
+
+
+    <string name="device_manager_summer_time_rule">The summer time setting must be greater than 1 hour</string>
+
+    <!--mobileCommon-->
+    <string name="mobile_common_later">Talk later</string>
+
+    <string name="mobile_common_device">device</string>
+
+
+
+
+
+
+    <string name="mobile_common_retry">try again</string>
+
+
+
+    <!--3.62+-->
+
+    <string name="mobile_common_device_timezone">Device time zone</string>
+
+
+    <string name="mobile_common_modify_device_pwd">Change device password</string>
+
+    <string name="mobile_common_device_pwd_rule">8-32 combination of digits, letters, symbols (case sensitive)</string>
+
+    <string name="mobile_common_password_too_simple">Password is too simple</string>
+    <string name="mobile_common_network_config">Network Configuration</string>
+
+    <string name="mobile_common_modify_device_pwd_tip">In order to protect the network security of your device, it is recommended to modify the default device password after adding。</string>
+    <string name="mobile_common_tap_to_view">Click to view</string>
+    <string name="mobile_common_how_modify_device_pwd">How to change the device password。</string>
+
+
+    <string name="more_settings">More settings</string>
+
+
+    <string name="common_connect_failed">Connection failed</string>
+
+
+    <string name="common_complete">finish</string>
+    <string name="common_next">next step</string>
+    <string name="common_next2">Next</string>
+    <string name="common_local_photo">Scan picture</string>
+
+    <string name="common_copy_success">Copy successfully</string>
+
+
+
+    <string name="device_tip_content">Please enter the device model</string>
+
+
+    <string name="add_device_qrcode_error_tip">The QR code information is incomplete, please try to add the device manually</string>
+    <string name="add_device_wait_to_connect_wifi_sc">Security verification code</string>
+    <string name="add_device_wait_to_connect_wifi_sc_pwd">Hotspot password is</string>
+    <string name="add_device_switch_to_soft_ap_add">Switch to soft ap add</string>
+    <string name="add_device_time_filter_tip">Tap here to check how to enable device\'s hotspot.</string>
+    <string name="add_device_connect_finish_to_next">Connected with device\'s hotspot, tap here to next step.</string>
+
+    <string name="add_device_adjust_phone_volume_to_hear_jiji">Please turn up the volume of your cell phone and point the speaker at the microphone \n to confirm that you hear "Chirp"</string>
+    <string name="add_device_will_hear_jiji">About to hear "Haw, haw, haw"</string>
+
+    <string name="add_device_add_title">Please choose how to add</string>
+    <string name="add_device_add_by_sound_wave">Sonic addition</string>
+    <string name="add_device_add_by_soft_ap">Soft AP add</string>
+
+
+    <string name="device_manager_wifi_name">name：</string>
+    <string name="device_manager_wifi_psw">password：</string>
+    <string name="add_device_input_wifi_name">Please enter the network name</string>
+
+
+    <string name="add_device_connect_wifi_failed">Automatic connection failed</string>
+    <string name="add_device_tip_connect_fail">If your automatic connection fails, please try to open the wifi list, without saving the password, try to re-enter the password</string>
+    <string name="add_device_tip_wifi_name">If there are special symbols such as emoticons in your wifi name, for example: \uD83C\uDF39❤\uD83D\uDE0A\uD83D\uDCA6，It may cause your device to fail to connect normally, it is recommended to delete the special symbols in the WiFi name。</string>
+    <string name="device_manager_connected_wifi">Current WiFi network:</string>
+    <string name="device_manager_wifi_list_empty">No WiFi</string>
+    <string name="mobile_common_get_info_failed">Get failed</string>
+    <string name="device_manager_input_wifi_password">Please enter WIFI password</string>
+    <string name="device_manager_connect">connection</string>
+    <string name="device_manager_exit">exit</string>
+    <string name="device_manager_not_saved_tip">The setting has not been saved, whether to exit</string>
+    <string name="device_manager_wifi_connetting_tip">WIFI connection, please refresh later</string>
+    <string name="device_manager_wifi_disable">Device WiFi is off</string>
+    <string name="device_manager_wifi_title">Network Configuration</string>
+    <string name="add_device_choose_type_error">No equipment of this model, please confirm the model according to the prompts on the page</string>
+    <string name="add_device_choose_type_tip1">The device model is usually marked on the device label \n\n</string>
+    <string name="add_device_choose_type_tip2">LeChange equipment recommends enter the device model for network configuration；</string>
+    <string name="add_device_choose_type_tip3">The model of LeChange equipment is usually“TP、TF、TC、TD”beginning。\n for ：TP2、TP7、TF1T \n\n</string>
+    <string name="add_device_choose_type_tip4">Imou equipment recommends choosing other models for network distribution；</string>
+    <string name="add_device_choose_type_tip5">The model of Imou equipment is usually“IPC、DH”beginning。\n for：IPC-HFW1225M-1、DH-NVR1104HS \n\n</string>
+    <string name="add_device_choose_type_tip6">The label diagram is as follows：</string>
+    <string name="add_device_higher_phone_volume">Higher phone volume and a closer distance between your phone and device will be more helpful.</string>
+    <string name="add_device_turn_up_volume_notice">Turn up the phone volume and place it near your device.</string>
+    <string name="add_device_phone_will_emit_signal">The phone will emit an audible signal.</string>
+    <string name="user_pwd_login_login">Log In</string>
+    <string name="user_register">register</string>
+    <string name="user_input_name">Please input your email</string>
+    <string name="user_login_title">Login</string>
+    <string name="user_register_btn">Account Register</string>
+    <string name="soft_ap_auto_connect_failed_tip">Go to your phone\'s Wi-Fi settings, connect to the device hotspot as follows, then return to this page.</string>
+    <string name="device_manager_monday">Mon</string>
+    <string name="device_manager_tuesday">Tue</string>
+    <string name="device_manager_wednesday">Wed</string>
+    <string name="device_manager_thursday">Thu</string>
+    <string name="device_manager_friday">Fri</string>
+    <string name="device_manager_saturday">Sat</string>
+    <string name="device_manager_sunday">Sun</string>
+    <string name="common_delete">Delete</string>
+    <string name="device_manager_default_defence_period_tip">7*24 reminder enabled by default. Please click "Detail-Reminder Period for more settings".</string>
+    <string name="common_i_know">OK</string>
+    <string name="device_manager_no_alarm_video_message_tip">You will no longer receive device alarm message and video after motion detection is disabled.</string>
+
+    <string name="add_device_softap_connect_device_hotspot_fail">Failed to connect to the device hotspot. Please try again.</string>
+    <string name="add_device_iot_wifi_2_4g_only_tip">2.4GHz Wi-Fi only</string>
+    <string name="add_device_iot_wifi_2_4g_only_tip1">1. Your IOT device only supports 2.4GHz Wi-Fi. If you are using a dual-band router, please connect your mobile phone and IOT device to the 2.4GHz Wi-Fi signal</string>
+    <string name="add_device_iot_wifi_2_4g_only_tip2">2. If you are not sure about the Wi-Fi frequency band that your mobile phone and IOT device are currently connected to, you can check the relevant instructions of the router and enter the router setting page for confirmation</string>
+    <string name="add_device_iot_wifi_choose">Please connect to a Wi-Fi Network</string>
+    <string name="add_device_iot_wifi_input_name">Wi-Fi Name</string>
+    <string name="add_device_iot_wifi_input_psw">Wi-Fi Password</string>
+    <string name="add_device_iot_wifi_remember_psw">Remember the password</string>
+    <string name="common_ssid">SSID：</string>
+    <string name="add_device_save_password">Save the password</string>
+    <string name="add_device_iot_wifi_2_4g_only">2.4 GHz Wi-Fi only</string>
+
+    <string name="add_device_bluetooth_turn_off_popup">The Bluetooth on your phone has been turned off. Tap Settings or open Control Center to turn it on.</string>
+
+</resources>

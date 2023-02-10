@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_manager_mon">Mon</string>
+    <string name="device_manager_tue">Tue</string>
+    <string name="device_manager_wed">Wed</string>
+    <string name="device_manager_thu">Thu</string>
+    <string name="device_manager_fri">Fri</string>
+    <string name="device_manager_sat">Sat</string>
+    <string name="device_manager_sun">Sun</string>
+
+    <string name="no_message">No message</string>
+    <string name="message_fail_desc">Loading failed, Try and try again.</string>
+    <string name="message_selectall">All</string>
+    <string name="message_unselectall">Select None</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_other">other</string>
+    <string name="message_module_delete_message_tip">Delete Messages</string>
+    <string name="message_module_delete_message_confirm">Delete the selected messages?</string>
+    <string name="message_module_confirm_delete">Delete</string>
+</resources>

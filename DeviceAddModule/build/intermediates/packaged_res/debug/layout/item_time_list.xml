@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mm.android.mobilecommon.widget.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/item_swipe_delete" />
+
+    <LinearLayout
+        android:id="@+id/parent_layout"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/common_list_item_bg_selector"
+        android:paddingStart="15dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/c40"
+            android:textSize="@dimen/t3" />
+
+        <View
+            android:id="@+id/divider"
+            style="@style/common_horizontal_line_style" />
+    </LinearLayout>
+</com.mm.android.mobilecommon.widget.swipe.SwipeLayout>

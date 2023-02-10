@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/px_1"
+            android:layout_height="@dimen/px_40"
+            android:layout_marginLeft="@dimen/px_15"
+            android:background="@color/c1"></View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="@dimen/px_30"
+                android:layout_height="@dimen/px_30"
+                android:background="@drawable/lc_demo_point"></View>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_15"
+                android:text="00:52:00"
+                android:textColor="@color/c1"
+                android:textSize="@dimen/px_26"></TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px_1"
+            android:layout_height="@dimen/px_20"
+            android:layout_marginLeft="@dimen/px_15"
+            android:background="@color/c1"></View>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

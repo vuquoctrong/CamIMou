@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!--UI规范文档中的字体大小-->
+
+    <dimen name="f0">20sp</dimen>   <!--最大标题-->
+    <dimen name="f1">17sp</dimen>   <!--标题栏标题-->
+    <dimen name="f2">15sp</dimen>   <!--正文-->
+    <dimen name="f3">13sp</dimen>   <!--说明-->
+    <!--提示/tab-->
+    <!--最小特殊说明文字-->
+</resources>

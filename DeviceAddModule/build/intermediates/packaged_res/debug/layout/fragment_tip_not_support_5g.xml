@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="80dp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/add_device_common_margin_15"
+    android:paddingRight="@dimen/add_device_common_margin_15"
+    tools:context=".p_errortip.TipUserBindFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_device_tip_not_support_5g_1"
+        android:textColor="@color/c2"
+        android:lineSpacingExtra="@dimen/add_device_common_margin_5"
+        android:gravity="left"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_device_common_margin_25"
+        android:gravity="left"
+        android:text="@string/add_device_tip_not_support_5g_2"
+        android:textColor="@color/c2"
+        android:lineSpacingExtra="@dimen/add_device_common_margin_5"
+        android:textSize="14sp"/>
+
+</LinearLayout>

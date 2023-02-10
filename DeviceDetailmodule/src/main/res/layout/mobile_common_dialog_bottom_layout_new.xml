@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:minHeight="1000dp"
+    android:minWidth="1000dp"
+    android:orientation="vertical"
+    android:alpha="130" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/mobile_common_about_feedback_edit_bg_normal" >
+
+        <!-- title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/dialog_bottom_title"
+            android:textColor="@color/c40"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:text="aaa"/>
+
+        <FrameLayout
+            android:id="@+id/dialog_bottom_title_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <!-- message -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/dialog_bottom_message"
+            android:textColor="@color/c51"
+            android:textSize="14sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:minHeight="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comm"
+        android:background="@color/c4"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

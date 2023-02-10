@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/leba_bg_single_unselected"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/wlan_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:textColor="@color/c2"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/wlan_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:src="@drawable/device_body_wifi_list_lock" />
+
+    <ImageView
+        android:id="@+id/wlan_len"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/devicedetail_wifi_1singal" />
+
+
+</LinearLayout>

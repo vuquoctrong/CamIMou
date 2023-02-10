@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c43">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_next"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/c43"
+            android:orientation="vertical">
+
+            <!--title-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/adddevice_icon_success_background" />
+
+                    <ImageView
+                        android:id="@+id/dev_img"
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginTop="60dp"
+                        android:src="@drawable/adddevice_icon_success_default" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginBottom="40dp"
+                        android:src="@drawable/adddevice_icon_success" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/add_device_add_successfully"
+                    android:textColor="@color/c2"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="13dp"
+                    android:text="@string/add_device_name_for_device"
+                    android:textColor="@color/c5"
+                    android:textSize="15sp" />
+
+                <com.mm.android.mobilecommon.widget.ClearEditText
+                    android:id="@+id/ap_name_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/add_device_common_edit_height"
+                    android:layout_marginTop="@dimen/add_device_common_margin_10"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/device_manager_input_device_name"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/add_device_common_margin_15"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/c2"
+                    android:textColorHint="@color/c5"
+                    android:textCursorDrawable="@drawable/text_cursor_drawable"
+                    android:textSize="17sp">
+
+                    <requestFocus />
+                </com.mm.android.mobilecommon.widget.ClearEditText>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/add_device_common_margin_15"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/add_device_common_margin_15"
+                android:background="@color/c8" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/tv_next"
+        style="@style/add_device_btn_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/add_device_common_margin_10"
+        android:layout_marginBottom="@dimen/add_device_common_margin_15"
+        android:text="@string/common_complete" />
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lc_demo_soild_20r_cf0f0f0_shape"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/px_15"
+        android:paddingBottom="@dimen/px_15">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_5"
+            android:textColor="@color/lc_demo_color_2b2b2b"
+            android:textSize="@dimen/px_26" />
+
+        <ImageView
+            android:id="@+id/to_msg"
+            android:layout_width="@dimen/px_50"
+            android:layout_height="@dimen/px_50"
+            android:layout_marginRight="@dimen/dp_10"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_news2" />
+
+    </LinearLayout>
+
+    <com.mm.android.mobilecommon.widget.RadiusCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="0dp"
+        app:rcv_bottomLeftRadiu="@dimen/px_20"
+        app:rcv_bottomRightRadiu="@dimen/px_20"
+        app:rcv_topLeftRadiu="0dp"
+        app:rcv_topRightRadiu="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/lc_demo_soild_20r_cf0f0f0_shape"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/lc_demo_default_bg" />
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/lc_demo_home_btn_bigmode_play2" />
+
+            <RelativeLayout
+                android:id="@+id/rl_offline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/lc_demo_soild_20r_c66000000_shape"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_offline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/lc_demo_main_offline"
+                    android:textColor="@color/lc_demo_color_ffffff"
+                    android:textSize="@dimen/px_32" />
+
+                <TextView
+                    android:id="@+id/tv_offline_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_offline"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textColor="@color/lc_demo_color_ffffff"
+                    android:textSize="@dimen/px_24" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.mm.android.mobilecommon.widget.RadiusCardView>
+</LinearLayout>

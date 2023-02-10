@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_not_has">账号不存在，请先注册</string>
+    <string name="phone_not_match_tip">格式不正确</string>
+</resources>

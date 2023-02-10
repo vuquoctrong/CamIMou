@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+		android:paddingLeft="@dimen/page_margin"
+        android:gravity="left|center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_left2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ll_title_left"
+        android:gravity="left|center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_left2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_right2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ll_title_right"
+        android:gravity="right|center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_right2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/ll_title_right2"
+        android:layout_toRightOf="@id/ll_title_left2"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxEms="15"
+            android:ellipsize="end"
+            android:text=""
+            android:singleLine="true" />
+        
+        <TextView
+            android:id="@+id/tv_title_center_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxEms="15"
+            android:ellipsize="end"
+            android:text=""
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_divider_wider"
+        android:layout_alignParentBottom="true"
+        android:background="@color/c6" />
+
+    <LinearLayout
+        android:id="@+id/ll_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right|center_vertical"
+        android:paddingRight="12dp" >
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+</RelativeLayout>

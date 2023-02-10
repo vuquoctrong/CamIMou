@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:alpha="0.7"
+    android:background="@color/c2"
+    android:gravity="center"
+    android:minHeight="1000dp"
+    android:minWidth="1000dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="0.7"
+        android:background="@color/c2" >
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="@string/add_box_tip"
+            android:textColor="@color/c43"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tip"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="@string/add_box_tip1"
+            android:textColor="@color/c43"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tip1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/add_box_tip2"
+            android:textColor="@color/c43"
+            android:textSize="16sp" />
+
+        <!-- 提示设置 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/not_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:button="@drawable/checkbox_btn_addbox_tip_selector"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/add_device_not_tip_again"
+                android:textColor="@color/c43"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="90dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/common_btn_bg_shape_white"
+                android:text="@string/add_box_tip_confirm_btn"
+                android:textColor="@color/c43"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+
+            <corners android:radius="@dimen/px_1000" />
+            <padding
+                android:bottom="@dimen/px_5"
+                android:left="@dimen/px_5"
+                android:right="@dimen/px_5"
+                android:top="@dimen/px_5" />
+            <solid android:color="@color/lc_demo_color_66f18d00"></solid>
+        </shape>
+
+    </item>
+    <item>
+        <shape>
+            <size
+                android:width="@dimen/px_40"
+                android:height="@dimen/px_40" />
+            <corners android:radius="@dimen/px_1000" />
+            <solid android:color="@color/lc_demo_color_f18d00"></solid>
+        </shape>
+    </item>
+</layer-list>

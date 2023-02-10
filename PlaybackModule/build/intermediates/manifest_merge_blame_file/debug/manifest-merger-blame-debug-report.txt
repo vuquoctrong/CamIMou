@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lc.playback" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:5:5-32:19
+10        <activity
+10-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:6:9-11:61
+11            android:name="com.lc.playback.ui.DeviceRecordPlayActivity"
+11-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:7:13-56
+12            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+12-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:8:13-81
+13            android:exported="false"
+13-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:10:13-37
+14            android:launchMode="singleTop"
+14-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:9:13-43
+15            android:screenOrientation="portrait" />
+15-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:11:13-49
+16        <activity
+16-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:13:9-18:61
+17            android:name="com.lc.playback.ui.DeviceRecordPlayActivityNew"
+17-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:14:13-59
+18            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+18-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:15:13-81
+19            android:exported="false"
+19-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:17:13-37
+20            android:launchMode="singleTop"
+20-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:16:13-43
+21            android:screenOrientation="portrait" />
+21-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:18:13-49
+22        <activity
+22-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:20:9-25:61
+23            android:name="com.lc.playback.ui.DeviceRecordListActivity"
+23-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:21:13-56
+24            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+24-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:22:13-81
+25            android:exported="false"
+25-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:24:13-37
+26            android:launchMode="singleTop"
+26-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:23:13-43
+27            android:screenOrientation="portrait" />
+27-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:25:13-49
+28        <activity
+28-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:26:9-31:61
+29            android:name="com.lc.playback.ui.PlayLocalActivity"
+29-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:27:13-49
+30            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+30-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:28:13-81
+31            android:exported="false"
+31-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:30:13-37
+32            android:launchMode="singleTop"
+32-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:29:13-43
+33            android:screenOrientation="portrait" />
+33-->D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:31:13-49
+34    </application>
+35
+36</manifest>

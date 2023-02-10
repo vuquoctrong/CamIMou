@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/week_view_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/c2"
+        android:background="@drawable/setting_period_bg_n"
+        android:textSize="@dimen/t3" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="8dp"
+        android:visibility="gone"
+        android:layout_height="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/week_view_item"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/item_period_selected_dot" />
+</LinearLayout>

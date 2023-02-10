@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c43"
+    android:paddingLeft="@dimen/add_device_common_margin_25"
+    android:paddingRight="@dimen/add_device_common_margin_25">
+
+    <TextView
+        android:id="@+id/tv_title_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_device_common_margin_25"
+        android:text="@string/device_type_choose"
+        android:textColor="@color/c2"
+        android:textSize="17sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:id="@+id/ll_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_device_common_edit_height"
+        android:layout_below="@id/tv_title_type"
+        android:layout_marginTop="@dimen/add_device_common_margin_25"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_self_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_self_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adddevice_box_checkbox_checked"></ImageView>
+
+            <com.mm.android.mobilecommon.widget.ClearEditText
+                android:id="@+id/tv_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:background="@drawable/common_border_bg_normal"
+                android:hint="@string/device_type_input_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="@color/c2"
+                android:textColorHint="@color/c5"
+                android:textCursorDrawable="@drawable/text_cursor_drawable"
+                android:textSize="17sp">
+
+                <requestFocus />
+            </com.mm.android.mobilecommon.widget.ClearEditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_choose_other"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_choose_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adddevice_box_checkbox"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_choose_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingTop="@dimen/add_device_common_margin_5"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/add_device_common_margin_5"
+                android:text="@string/device_type_other"
+                android:textColor="@color/c51"
+                android:textSize="@dimen/dp_15"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_input"
+        android:layout_marginTop="@dimen/add_device_common_margin_25"
+        android:text="@string/device_type_choose_tip"
+        android:textColor="@color/c2"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_sure"
+        android:layout_below="@id/tv_tip_title"
+        android:layout_marginTop="@dimen/dp_18"
+        android:layout_marginBottom="30dp"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c51"
+                android:textSize="@dimen/dp_15"></TextView>
+
+            <ImageView
+                android:layout_marginTop="@dimen/dp_20"
+                android:src="@drawable/lc_operation_step"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="172dp">
+
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_sure"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/add_device_common_margin_25"
+        android:background="@drawable/mobile_common_next_btn_selector"
+        android:gravity="center"
+        android:text="@string/device_type_sure"
+        android:textColor="@color/c43"></TextView>
+</RelativeLayout>

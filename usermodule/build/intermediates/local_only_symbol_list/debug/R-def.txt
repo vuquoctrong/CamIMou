@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color c52
+drawable bg
+drawable common_edit_text_cursor_bg
+drawable nav_back
+drawable user_module_bg_commit_button
+drawable user_module_bg_commit_button_press
+drawable user_module_bg_commit_button_selector
+drawable user_module_icon_login_account
+id account_username_icon
+id bg
+id iv_back
+id login_login
+id login_regesiter
+id login_username
+id title
+id user_layout
+id user_register
+layout login_activity
+layout user_regesiter_activity
+string account_not_has
+string phone_not_match_tip
+style user_module_edittext

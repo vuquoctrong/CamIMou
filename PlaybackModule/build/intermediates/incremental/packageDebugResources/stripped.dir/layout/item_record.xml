@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/lc_demo_color_f2f2f2"
+    android:layout_height="@dimen/px_220"
+    android:layout_marginLeft="@dimen/px_5"
+    android:layout_marginRight="@dimen/px_5"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_160">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_bg"
+            android:src="@mipmap/lc_demo_default_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_160"
+       ></ImageView>
+
+        <TextView
+            android:id="@+id/tv_time_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_5"
+            android:layout_marginTop="@dimen/px_5"
+            android:text="45S"
+            android:textColor="@color/lc_demo_color_ffffff"
+            android:textSize="@dimen/px_26">
+        </TextView>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_check"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginBottom="@dimen/px_10"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/playback_module_message_btn_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_time_m"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@mipmap/play_module_time"
+        android:drawablePadding="@dimen/px_2"
+        android:layout_height="match_parent"
+        android:text="00:52:00"
+        android:textColor="@color/c2"
+        android:textSize="@dimen/px_26"></TextView>
+</LinearLayout>

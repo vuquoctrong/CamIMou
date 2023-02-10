@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/common_list_item_bg_selector"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/wifi_quality_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/devicedetail_wifi_1singal"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/wifi_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:textColor="@color/c40"
+        android:textSize="@dimen/t4"
+        android:layout_toLeftOf="@+id/wifi_quality_icon"/>
+
+</RelativeLayout>

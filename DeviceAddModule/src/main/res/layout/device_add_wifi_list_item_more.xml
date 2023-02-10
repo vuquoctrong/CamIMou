@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/leba_bg_single_unselected"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:textColor="@color/c0"
+        android:text="其他..."
+        android:textSize="15sp" />
+</LinearLayout>

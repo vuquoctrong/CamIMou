@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mm.android.deviceaddmodule" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- android10以上，使用蓝牙权限 -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络访问 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许程序写入外部存储,如SD卡上写文件，抓图、录制等 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 程序可以读取设备外部存储空间(内置SDcard和外置SDCard)的文件，我的文件等 -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- 允许程序请求验证从AccountManager？？？ -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" /> <!-- 允许改变WiFi多播状态？？？ -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 允许程序显示系统窗口，应该已经不适用了？？？ -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 允许程序录制声音通过手机或耳机的麦克，对讲、自定义报警音等 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 允许程序访问摄像头进行拍照，二维码扫描补光、拍照上传图片等 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 允许访问闪光灯，二维码扫描补光 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 允许程序修改声音设置信息，声波配对，自动调大音量。需求变更之后应该不需要了？？？ -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许程序获取当前WiFi接入的状态以及WLAN热点的信息，设备添加何种配网流程使用 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 允许程序改变WiFi状态，配网等 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.READ_SETTINGS" /> <!-- 允许程序读取系统设置，声波配对获取当前系统音量等 -->
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 允许一个程序访问CellID或 WiFi热点来获取粗略的位置，登陆、设备添加等 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 允许一个程序访问CellID或 WiFi热点来获取精确的位置，登陆、设备添加等？？？ -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 允许应用程序访问额外的位置提供命令，登陆、设备添加等？？？ -->
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 允许程序改变网络状态,如是否联网，配网？？？ -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 允许应用程序请求安装包。针对API大于22必须持有该许可使用ACTION_INSTALL_PACKAGE应用。应该没在用？？？ -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        tools:replace="android:allowBackup,android:label,android:supportsRtl" >
+        <service android:name="com.mm.android.deviceaddmodule.services.TimeFilterService" />
+
+        <receiver android:name="com.mm.android.deviceaddmodule.receiver.SucceedClickReceiver" />
+        <receiver android:name="com.mm.android.deviceaddmodule.receiver.TimeoutClickReceiver" />
+
+        <activity
+            android:name="com.mm.android.deviceaddmodule.DeviceAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:label="@string/mobile_common_device"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.mm.android.deviceaddmodule.device_wifi.DeviceWifiListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.mm.android.deviceaddmodule.device_wifi.DeviceWifiPasswordActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.mm.android.deviceaddmodule.device_wifi.ErrorTipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.mm.android.deviceaddmodule.device_wifi.HiddenWifiActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <service android:name="com.mm.android.deviceaddmodule.SeachDeviceService" />
+
+        <meta-data
+            android:name="meta-data4type"
+            android:value="@string/client_type"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="meta-data4host"
+            android:value="@string/host" />
+        <meta-data
+            android:name="meta-ishttps"
+            android:value="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="dollar_openBracket_applicationId_closeBracket.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.mm.android.deviceaddmodule.mobilecommon.base.ProgressActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/translucent" />
+    </application>
+
+</manifest>

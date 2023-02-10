@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/px_30"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_device_modify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+        <TextView
+            android:id="@+id/tv_device_name_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_30"
+            android:singleLine="true"
+            android:text="@string/lc_demo_device_name"
+            android:textColor="@color/lc_demo_color_2c2c2c"
+            android:textSize="@dimen/px_36"/>
+
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_30"
+            android:layout_toLeftOf="@id/iv_name_next"
+            android:gravity="end"
+            android:textColor="@color/lc_demo_color_8f8f8f"
+            android:textSize="@dimen/px_30"/>
+
+        <ImageView
+            android:id="@+id/iv_name_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lc_demo_common_btn_next"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/lc_demo_color_d9d9d9"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_detail_type"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+        <TextView
+            android:id="@+id/tv_type_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/lc_demo_device_type_tip"
+            android:textColor="@color/lc_demo_color_2c2c2c"
+            android:textSize="@dimen/px_36"/>
+
+        <TextView
+            android:id="@+id/tv_device_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@id/tv_type_tip"
+            android:gravity="end"
+            android:textColor="@color/lc_demo_color_8f8f8f"
+            android:textSize="@dimen/px_30"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/lc_demo_color_d9d9d9"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_device_serial"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:layout_marginTop="@dimen/px_1"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+        <TextView
+            android:id="@+id/tv_device_serial_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/lc_demo_device_serial_tip"
+            android:textColor="@color/lc_demo_color_2c2c2c"
+            android:textSize="@dimen/px_36"/>
+
+        <TextView
+            android:id="@+id/tv_device_serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@id/tv_device_serial_tip"
+            android:gravity="end"
+            android:textColor="@color/lc_demo_color_8f8f8f"
+            android:textSize="@dimen/px_30"/>
+    </RelativeLayout>
+
+</LinearLayout>

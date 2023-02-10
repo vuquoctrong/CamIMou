@@ -1,0 +1,67 @@
+<resources>
+    <string name="lc_demo_device_detail_title">设备详情</string>
+    <string name="lc_demo_device_unbind_success">解绑成功</string>
+    <string name="lc_demo_device_delete">删除</string>
+    <string name="lc_demo_device_update_tip">提示</string>
+    <string name="lc_demo_device_update">升级</string>
+    <string name="lc_demo_device_begin_update">开始升级</string>
+    <string name="lc_demo_device_updateing">正在升级</string>
+    <string name="lc_demo_device_version_new">最新版本</string>
+    <string name="lc_demo_device_version_title">设备程序版本</string>
+    <string name="lc_demo_device_version_current">当前版本</string>
+    <string name="lc_demo_device_version_new_tip">当前已是最新版本</string>
+    <string name="lc_demo_device_version_tips">设备程序版本</string>
+    <string name="lc_demo_device_warn_setting">报警设置</string>
+    <string name="lc_demo_device_deployment_settings">布防设置</string>
+    <string name="lc_demo_device_cur_wifi">网络配置</string>
+    <string name="lc_demo_device_name_hint">请输入设备名称</string>
+    <string name="lc_demo_device_name">设备名称</string>
+    <string name="lc_demo_device_type_tip">设备型号</string>
+    <string name="lc_demo_device_serial_tip">序列号</string>
+    <string name="lc_demo_device_deployment_title">布防设置</string>
+    <string name="lc_demo_device_modify_success">保存成功</string>
+    <string name="lc_demo_device_deployment_setting_time">布防时间段设置</string>
+    <string name="lc_demo_device_setting_time">时间段设置</string>
+    <string name="deployment_setting_time_description">设备将在设定的检测时间段内推送报警消息</string>
+    <string name="deployment_setting_time_part">检测时间段</string>
+    <string name="deployment_time_part">布防时间段</string>
+    <string name="device_manager_save_failed">保存失败</string>
+    <string name="device_manager_choose_type">选择类型</string>
+    <string name="common_save">保存</string>
+    <string name="device_manager_add_period">添加时间段</string>
+    <string name="device_manager_no_more_than_six_periods">最多只能添加6条时间段</string>
+    <string name="device_manager_period">时间段</string>
+    <string name="device_manager_time_set_tenmin_error">结束时间应超过开始时间10分钟</string>
+    <string name="device_manager_end_time_less_than_start">结束时间必须大于开始时间</string>
+    <string name="quick_response_not_save_hint">设置尚未保存，是否退出？</string>
+    <string name="deployment_time_part_modify_success">保存成功</string>
+
+    <!--    SD卡-->
+    <string name="sd_cards">SD卡</string>
+    <string name="sd_no_cards">无SD卡</string>
+    <string name="sd_common">正常</string>
+    <string name="sd_local_store">本地存储</string>
+    <string name="sd_normal">存储正常</string>
+    <string name="sd_uncommon">存储异常</string>
+    <string name="sd_use_space">可用空间：%1$sGB &#8195; 已使用%2$sGB</string>
+    <string name="sd_use_space_gb">%1$sGB/%2$sGB</string>
+    <string name="sd_memory_broken">内置存储已损坏</string>
+    <string name="sd_suggest_format">建议格式化</string>
+    <string name="sd_start_format">格式化</string>
+    <string name="sd_formatting">正在格式化，请稍后..</string>
+    <string name="sd_formatting_success">格式化成功</string>
+    <string name="sd_formatting_fail">格式化失败</string>
+    <string name="sd_dialog_tip">格式化将会清空存储内所有数据，且该操作一旦开始不可取消</string>
+    <string name="sd_btn_format">格式化</string>
+    <string name="lc_demo_device_cancel">取消</string>
+    <string name="lc_demo_device_store_setting">存储设置</string>
+    <string name="lc_demo_device_setting_tip">设备设置</string>
+    <string name="sd_cloud">云存储</string>
+    <string name="sd_notice">提示</string>
+
+
+    <string name="deploy_cancel">取消</string>
+    <string name="lc_demo_device_update_msg">升级过程将持续几分钟，升级时请务必保证设备不断电</string>
+    <string name="lc_demo_device_move_check">移动检测</string>
+    <string name="lc_demo_device_deployment_tip">开启后，检测到画面变化将录制视频</string>
+</resources>

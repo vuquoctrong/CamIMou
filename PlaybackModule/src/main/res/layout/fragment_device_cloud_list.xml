@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_70">
+
+        <ImageView
+            android:id="@+id/iv_day_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:src="@mipmap/lc_demo_play_module_calendar_mouth_left"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_month_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/c2"
+            android:textSize="@dimen/px_30"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/iv_day_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_30"
+            android:src="@mipmap/play_module_calendar_mouth_right"></ImageView>
+    </RelativeLayout>
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rcv_record_list"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/rl_title"></androidx.recyclerview.widget.RecyclerView>-->
+
+    <com.mm.android.mobilecommon.widget.LcPullToRefreshRecyclerView
+        android:id="@+id/record_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@mipmap/lc_demo_loading_orange"
+        ptr:ptrDrawableIng="@drawable/lc_demo_org_progress_style"
+        ptr:ptrDrawableStart="@drawable/indicator_arrow"
+        ptr:ptrHeaderTextColor="@color/c51" />
+
+    <TextView
+        android:layout_below="@id/rl_title"
+        android:visibility="gone"
+        android:id="@+id/tv_today"
+        android:gravity="center"
+        android:textColor="@color/c41"
+        android:textSize="@dimen/px_30"
+        android:text="@string/lc_demo_device_today_no_record"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="@color/c1"
+        android:textSize="@dimen/px_32"
+        android:visibility="gone">
+
+    </TextView>
+</RelativeLayout>

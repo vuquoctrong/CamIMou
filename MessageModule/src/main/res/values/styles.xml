@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 分辨率框弹出动画 -->
+    <style name="PopupDialog">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <!-- 分辨率框弹出动画 -->
+    <style name="PopupDialog_Scale">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_scale_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_scale_anim</item>
+    </style>
+
+    <!-- 添加设备流程中按钮style -->
+    <style name="add_device_btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/mobile_common_next_btn_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/c43</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+</resources>

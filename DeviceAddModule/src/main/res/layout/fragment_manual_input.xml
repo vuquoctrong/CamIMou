@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".p_inputsn.ManualInputFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/adddevice_pic_serialnumber" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:text="@string/add_device_input_sn_under_device"
+                android:textColor="@color/c2"
+                android:textSize="14dp" />
+
+
+            <com.mm.android.mobilecommon.widget.ClearEditText
+                android:id="@+id/et_user_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_device_common_edit_height"
+                android:layout_marginTop="@dimen/add_device_common_margin_15"
+                android:background="@drawable/common_btn_bg_shape_gray"
+                android:ellipsize="end"
+                android:hint="@string/add_device_input_sn"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLength="32"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="@color/c2"
+                android:textColorHint="@color/c5"
+                android:textCursorDrawable="@drawable/text_cursor_drawable"
+                android:textSize="16dp">
+
+                <requestFocus />
+            </com.mm.android.mobilecommon.widget.ClearEditText>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="@dimen/add_device_common_margin_10"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:text="@string/add_device_input_sn_by_user_not_support_box"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+
+            <com.mm.android.mobilecommon.widget.ClearEditText
+                android:id="@+id/et_input_sc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_device_common_edit_height"
+                android:layout_marginTop="@dimen/add_device_common_margin_15"
+                android:background="@drawable/common_btn_bg_shape_gray"
+                android:ellipsize="end"
+                android:hint="@string/add_device_input_sccode"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLength="8"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="@color/c2"
+                android:textColorHint="@color/c5"
+                android:textCursorDrawable="@drawable/text_cursor_drawable"
+                android:textSize="16dp"></com.mm.android.mobilecommon.widget.ClearEditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="@dimen/add_device_common_margin_10"
+                android:paddingLeft="@dimen/add_device_common_margin_15"
+                android:text="@string/add_device_without_input_sccode_tip"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/next_btn"
+                style="@style/add_device_btn_style"
+                android:layout_marginTop="50dp"
+                android:text="@string/common_next" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

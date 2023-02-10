@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.opensdk.devicedetail">
+
+    <application>
+        <activity
+            android:name="com.opensdk.devicedetail.ui.DeviceDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.opensdk.devicedetail.ui.DeploymentSettingTimeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.opensdk.devicedetail.ui.PeriodSettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

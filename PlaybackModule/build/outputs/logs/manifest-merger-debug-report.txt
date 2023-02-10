@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:5:5-32:19
+activity#com.lc.playback.ui.DeviceRecordPlayActivity
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:6:9-11:61
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:11:13-49
+	android:launchMode
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:9:13-43
+	android:exported
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:10:13-37
+	android:configChanges
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:8:13-81
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:7:13-56
+activity#com.lc.playback.ui.DeviceRecordPlayActivityNew
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:13:9-18:61
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:18:13-49
+	android:launchMode
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:16:13-43
+	android:exported
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:17:13-37
+	android:configChanges
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:15:13-81
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:14:13-59
+activity#com.lc.playback.ui.DeviceRecordListActivity
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:20:9-25:61
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:25:13-49
+	android:launchMode
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:23:13-43
+	android:exported
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:22:13-81
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:21:13-56
+activity#com.lc.playback.ui.PlayLocalActivity
+ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:26:9-31:61
+	android:screenOrientation
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:31:13-49
+	android:launchMode
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:29:13-43
+	android:exported
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:28:13-81
+	android:name
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml:27:13-49
+uses-sdk
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+		ADDED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_OpenSDK_Demo_3.12.01@182133.R.20230105\LCAndroidSDKDemo\PlaybackModule\src\main\AndroidManifest.xml

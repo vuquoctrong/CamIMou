@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DayPickerView">
+        <attr name="colorSelectedBgThis" format="color" />
+        <attr name="colorSelectedBgLast" format="color" />
+        <attr name="colorSelectedBg1" format="color" />
+        <attr name="colorSelectedBg2" format="color" />
+        <attr name="colorSelectedBg3" format="color" />
+        <attr name="drawRoundRect" format="boolean" />
+        <attr name="modeOfDay" format="boolean" />
+        <attr name="colorEnableDay" format="color" />
+        <attr name="colorNormalDay" format="color" />
+        <attr name="colorMonthName" format="color" />
+        <attr name="colorDayName" format="color" />
+        <attr name="textSizeDay" format="dimension" />
+        <attr name="textSizeMonth" format="dimension" />
+        <attr name="textSizeDayName" format="dimension" />
+        <attr name="headerMonthHeight" format="dimension" />
+        <attr name="selectedDayRadius" format="dimension" />
+        <attr name="calendarHeight" format="dimension" />
+
+    </declare-styleable>
+
+
+    <!-- SwipeLayout -->
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="TimeBar">
+
+        <attr name="background_color" format="color" />            <!-- background color -->
+        <attr name="fill_color" format="color" />                <!-- fill color -->
+        <attr name="scale_text_color" format="color" />            <!-- scale_text color -->
+        <attr name="thumb_color" format="color"></attr>            <!-- thumb color -->
+        <attr name="fill_height" format="dimension"></attr>        <!-- fill height -->
+        <attr name="scale_text_size" format="dimension"></attr>    <!-- scale_text size -->
+        <attr name="date_text_size" format="dimension"></attr>    <!-- date_text size -->
+        <attr name="date_text_color" format="color"></attr>        <!-- date_text color -->
+        <attr name="max_time" format="integer">
+
+            <enum name="hour_24" value="24" />                        <!-- 24小时 -->
+            <enum name="hour_48" value="48" />                        <!-- 48小时 -->
+        </attr>        <!-- max hour -->
+    </declare-styleable>
+
+
+    <declare-styleable name="WheelPicker">
+        <attr name="halfVisibleItemCount" format="integer" />
+        <attr name="itemTextSize" format="dimension" />
+        <attr name="itemTextColor" format="color" />
+        <attr name="textGradual" format="boolean" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="selectedBorderColor" format="color" />
+        <attr name="currentItemPosition" format="integer" />
+        <attr name="itemWidthSpace" format="dimension" />
+        <attr name="itemHeightSpace" format="dimension" />
+        <attr name="zoomInSelectedItem" format="boolean" />
+        <attr name="wheelCyclic" format="boolean" />
+        <attr name="indicatorText" format="string" />
+        <attr name="indicatorTextSize" format="dimension" />
+        <attr name="indicatorTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MLBorderImageView">
+        <attr name="border_color" format="color" />
+        <attr name="border_color_selected" format="color" />
+        <attr name="border_color_normal" format="color" />
+        <attr name="border_width" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FilletCornerImageView">
+        <attr name="fillet_border_color" format="color" />
+        <attr name="fillet_border_color_selected" format="color" />
+        <attr name="fillet_border_color_normal" format="color" />
+        <attr name="fillet_border_width" format="dimension" />
+        <attr name="fillet_radius" format="dimension" />
+        <attr name="fillet_shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CommonRatioImageView">
+        <attr name="width_relative" format="dimension" />
+        <attr name="height_relative" format="dimension" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleCountDownView">
+        <!--颜色-->
+        <attr name="ringColor" format="color|reference" />
+        <attr name="ringbgColor" format="color|reference" />
+        <!-- 进度文本的字体大小 -->
+        <attr name="progressTextSize" format="dimension|reference" />
+        <!-- 圆环宽度 -->
+        <attr name="ringWidth" format="dimension|reference" />
+        <!--进度文本颜色-->
+        <attr name="progressTextColor" format="color|reference" />
+        <!--倒计时-->
+        <attr name="countdownTime" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LineChart">
+        <attr name="god_mode" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RadiusCardView">
+        <!--        左上圆角大小-->
+        <attr name="rcv_topLeftRadiu" format="dimension" />
+        <!--        右上圆角大小-->
+        <attr name="rcv_topRightRadiu" format="dimension" />
+        <!--        右下圆角大小-->
+        <attr name="rcv_bottomRightRadiu" format="dimension" />
+        <!--        左下圆角大小-->
+        <attr name="rcv_bottomLeftRadiu" format="dimension" />
+    </declare-styleable>
+
+</resources>

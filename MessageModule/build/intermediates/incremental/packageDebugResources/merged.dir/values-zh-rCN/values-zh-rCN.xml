@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_delete">删除</string>
+    <string name="common_other">其他</string>
+    <string name="device_manager_fri">五</string>
+    <string name="device_manager_mon">一</string>
+    <string name="device_manager_sat">六</string>
+    <string name="device_manager_sun">日</string>
+    <string name="device_manager_thu">四</string>
+    <string name="device_manager_tue">二</string>
+    <string name="device_manager_wed">三</string>
+    <string name="message_fail_desc">加载失败, 点击重试</string>
+    <string name="message_module_confirm_delete">确定删除</string>
+    <string name="message_module_delete_message_confirm">是否删除所选消息?</string>
+    <string name="message_module_delete_message_tip">删除消息</string>
+    <string name="message_selectall">全选</string>
+    <string name="message_unselectall">取消全选</string>
+    <string name="no_message">暂无消息</string>
+</resources>

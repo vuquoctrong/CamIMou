@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基础色-->
+    <color name="c0">#F18D00</color>   <!--用于按钮、较大面积色块辅色 原C10-->
+    <color name="c1">#F18D00</color>   <!--用于强调性文字/图片等非大面积色块色值-->
+    <color name="c2">#2C2C2C</color>    <!--主标题/主文字色-->
+    <!--主标题/主文字色-->
+    <color name="c3">#C8D1E6</color>    <!--Toolbar文字/普通按钮BG色-->
+    <!--点缀色-->
+    <color name="c5">#888888</color>   <!--普通文案/引导/次要文字-->
+    <color name="c6">#CCCCCC</color>   <!--置灰/输入提示-->
+
+    <!--底色/分割-->
+    <color name="c7">#F7F7F7</color>   <!--客户端底色/卡片描边-->
+    <color name="c8">#F2F2F2</color>   <!--分割线底色-->
+    <color name="c10">#FFFFFF</color>   <!--反白-->
+
+    <!--带透明度的颜色-->
+    <!--全局遮罩-->
+    <color name="c14">#7FF18D00</color> <!--强调钮pressed-->
+    <color name="c15">#7FF18D00</color> <!--强调钮disabled-->
+    <!--普通钮pressed-->
+    <!--普通钮disabled-->
+
+    <!--成功失败提示-->
+    <color name="c12">#EF6545</color>   <!--删除、警示色；添加设备超时红灯文案-->
+    <color name="color_background">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!--新UI规范颜色值统一命名-->
+    <color name="color5">#424243</color>
+    <color name="color9">#cccccc</color>
+</resources>

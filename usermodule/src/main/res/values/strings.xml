@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="phone_not_match_tip">Incorrect Format</string>
+    <string name="account_not_has">The account does not exist. Please register first</string>
+
+</resources>

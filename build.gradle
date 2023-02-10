@@ -1,0 +1,43 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        kotlin_version = '1.4.10'
+    }
+
+    repositories {
+        mavenLocal()
+//        maven { url "https://rdmaven.dahuatech.com:9091/repository/maven-public/" }
+//        maven { url "https://rdmaven.dahuatech.com:9091/repository/AndroidGroup/" }
+//        maven { url "https://rdmaven.dahuatech.com:9091/repository/3rd-party/" }
+//        maven { url "https://rdmaven.dahuatech.com:8081/nexus/content/repositories/dss-releases" }
+//        maven { url "https://rdmaven.dahuatech.com:9091/repository/aliyun-google/" }
+        mavenCentral()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.3'
+      //  classpath 'com.alibaba:arouter-compiler:1.5.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+//        maven { url "http://rdmaven.dahuatech.com:9091/repository/maven-public/" }
+//        maven { url "http://rdmaven.dahuatech.com:9091/repository/AndroidGroup/" }
+//        maven { url "http://rdmaven.dahuatech.com:9091/repository/3rd-party/" }
+//        maven { url "http://rdmaven.dahuatech.com:8081/nexus/content/repositories/dss-releases" }
+//        maven { url "http://rdmaven.dahuatech.com:8081/nexus/content/repositories/dss-snapshots" }
+//        maven { url "http://rdmaven.dahuatech.com:9091/repository/aliyun-google/" }
+        mavenCentral()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

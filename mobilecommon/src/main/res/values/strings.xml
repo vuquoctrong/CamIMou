@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="common_cancel">cancel</string>
+    <string name="common_cancel_big">Cancel</string>
+    <string name="common_confirm">sure</string>
+    <string name="mobile_common_operate_fail">Operation failed. Check the network</string>
+
+    <string name="go_to_setting">Go to set</string>
+
+    <string name="mobile_common_no_google_play_detection">Jump failed, please install Google App Market first</string>
+    <string name="mobile_common_no_huawei_play_detection">Please install Huawei App Market first.</string>
+
+
+    <!--权限增加-->
+    <string name="mobile_common_permission_apply">Access Request</string>
+    <string name="mobile_common_common_ignore">ignore</string>
+    <string name="mobile_common_permission_explain_get_accounts">Please enable the contact access permission to use the function of adding contacts in the address book normally</string>
+    <string name="mobile_common_permission_explain_write_accounts">Please enable the contact write permission to save "LeChange Phone Alarm" as a contact</string>
+    <string name="mobile_common_permission_explain_read_phone_state">Please enable phone access to call the customer service hotline</string>
+    <string name="mobile_common_permission_explain_camera">Please enable camera access permission to take pictures, scan QR codes and other functions normally</string>
+    <string name="mobile_common_permission_explain_external_storage">Please enable storage permission to use the functions of capturing, recording, downloading, etc. normally</string>
+    <string name="mobile_common_permission_explain_record_audio">Please enable microphone access to use intercom, custom voice recording and other functions normally</string>
+    <string name="mobile_common_lack_permission_then_exit">The necessary permissions are missing, please open permissions</string>
+    <string name="mobile_common_permission_explain_access_location_usage">Please enable location information permission to use geographic location-based services and WiFi connection functions normally。</string>
+    <string name="geofence_backgroud_location_permission_explain">To enable Geofencing, please go to Settings > Imou on your phone. Then change the location setting to "Always".</string>
+    <string name="common_no_authority">No permission</string>
+    <string name="common_offline">Offline</string>
+
+    <string name="mobile_common_common_never_remind">Don\'t show this again</string>
+
+    <string name="device_manager_report_month_select_month"><xliff:g id="num">%d</xliff:g>月</string>
+    <string name="device_manager_report_month_select_year"><xliff:g id="num">%d</xliff:g>年</string>
+    <string name="valid_code_retrieve_valid_num">Reacquire(<xliff:g id="num">%d</xliff:g>)</string>
+    <string name="device_manager_regain">Reacquire</string>
+
+
+    <string name="common_today">today  </string>
+    <string name="common_yesterday">yesterday  </string>
+
+    <string name="lc_demo_device_update">Upgrade</string>
+
+    <string name="device_manager_input_captcha">please enter verification code</string>
+
+    <string name="user_pwd_login_login">Log In</string>
+    <string name="user_register">register</string>
+    <string name="user_input_name">Please input your email</string>
+    <string name="user_login_title">Login</string>
+    <string name="user_register_btn">Account Register</string>
+
+    <string name="common_i_know">OK</string>
+    <string name="application_name">Imou</string>
+
+    <string name="device_manage_notice">Notice</string>
+    <string name="device_delete_tip">Tip</string>
+    <string name="device_delete_confirm_msg">Want to delete?</string>
+    <string name="device_confirm_exit">Exit</string>
+    <string name="quit_response_not_save_hint">You haven\'t saved your settings. Are you sure you want to exit?</string>
+
+</resources>

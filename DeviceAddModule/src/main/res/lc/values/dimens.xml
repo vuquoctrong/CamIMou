@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mobile_common_title_height">50dp</dimen>
+    <dimen name="mobile_common_lc_alert_dialog_button_text_size">17sp</dimen>
+    <!-- 文字 -->
+    <dimen name="mobile_common_text_size_small">12sp</dimen>
+    <dimen name="mobile_common_common_title_text_size_mid">16sp</dimen>
+    <dimen name="mobile_common_common_title_text_size_large">18sp</dimen>
+    <dimen name="mobile_common_text_size_mid">16sp</dimen>
+
+    <dimen name="mobile_common_common_title_height">48dp</dimen>
+    <dimen name="mobile_common_page_margin">15dp</dimen>
+
+    <dimen name="mobile_common_dp_5">5dp</dimen>
+    <dimen name="mobile_common_dp_6">6dp</dimen>
+    <dimen name="mobile_common_dp_8">8dp</dimen>
+    <dimen name="mobile_common_dp_10">10dp</dimen>
+    <dimen name="mobile_common_dp_20">20dp</dimen>
+    <dimen name="mobile_common_dp_30">30dp</dimen>
+
+    <!-- font size -->
+    <dimen name="mobile_common_sp_16">16sp</dimen>
+    <dimen name="mobile_common_sp_17">17sp</dimen>
+    <dimen name="mobile_common_sp_18">18sp</dimen>
+
+    <dimen name="mobile_common_divider_wider">0.5dp</dimen>
+
+    <dimen name="t3">16sp</dimen>
+    <dimen name="t0">35sp</dimen>
+    <dimen name="t1">20sp</dimen>
+    <dimen name="t2">17sp</dimen>
+    <dimen name="t4">15sp</dimen>
+    <dimen name="t5">14sp</dimen>
+    <dimen name="t6">12sp</dimen>
+    <dimen name="t7">9sp</dimen>
+    <dimen name="t8">11sp</dimen>
+</resources>

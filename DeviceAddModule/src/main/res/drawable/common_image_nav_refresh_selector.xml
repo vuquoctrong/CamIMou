@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_pressed="true" android:drawable="@drawable/mobile_common_nav_icon_settings_click" />-->
+    <!--<item android:state_selected="true" android:drawable="@drawable/mobile_common_nav_icon_settings_click" />-->
+    <item android:state_enabled="false" android:drawable = "@drawable/common_image_nav_refresh_disable"/>
+    <item android:drawable="@drawable/common_image_nav_refresh" />
+</selector>

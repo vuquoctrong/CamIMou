@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date_view_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/mobile_common_dp_5"
+        android:gravity="left"
+        android:text="2022-10"
+        android:textColor="@color/c2"
+        android:textSize="@dimen/mobile_common_sp_17" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/date_view_day_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+</LinearLayout>
